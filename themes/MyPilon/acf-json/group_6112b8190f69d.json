@@ -1,0 +1,263 @@
+{
+    "key": "group_6112b8190f69d",
+    "title": "Калькулятор",
+    "fields": [
+        {
+            "key": "field_6115494de755c",
+            "label": "Заголовок",
+            "name": "calc_title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "100",
+                "class": "",
+                "id": ""
+            },
+            "show_in_rest": 0,
+            "edit_in_rest": 0,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_6112b8fa00710",
+            "label": "Выбрать тип экрана",
+            "name": "select_type_screen",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "show_in_rest": 0,
+            "edit_in_rest": 0,
+            "choices": {
+                "Кабинетный": "Кабинетный",
+                "Модульный": "Модульный"
+            },
+            "default_value": [],
+            "allow_null": 0,
+            "multiple": 1,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_6112b959de58c",
+            "label": "Выбрать шаг пикселя",
+            "name": "select_pixel_step",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "show_in_rest": 0,
+            "edit_in_rest": 0,
+            "choices": {
+                "1": "1",
+                "1,25": "1,25",
+                "1,37": "1,37",
+                "1,53": "1,53",
+                "1,66": "1,66",
+                "1,86": "1,86",
+                "2": "2",
+                "2,5": "2,5",
+                "2,97": "2,97",
+                "3": "3",
+                "3,07": "3,07",
+                "3,91": "3,91",
+                "4": "4",
+                "4,81": "4,81",
+                "5": "5",
+                "6": "6",
+                "6,67": "6,67",
+                "8": "8",
+                "10": "10"
+            },
+            "default_value": [],
+            "allow_null": 0,
+            "multiple": 1,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_6112bb26de58d",
+            "label": "Выбрать срок гарантии",
+            "name": "select_garancy",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "show_in_rest": 0,
+            "edit_in_rest": 0,
+            "choices": {
+                "1 год": "1 год",
+                "2 года": "2 года",
+                "3 года": "3 года",
+                "5 лет": "5 лет"
+            },
+            "default_value": [],
+            "allow_null": 0,
+            "multiple": 1,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_6112bb76de58e",
+            "label": "Выбрать тип управление",
+            "name": "select_type_control",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "show_in_rest": 0,
+            "edit_in_rest": 0,
+            "choices": {
+                "Облачное": "Облачное",
+                "Синхронное": "Синхронное",
+                "Асинхронное": "Асинхронное"
+            },
+            "default_value": [],
+            "allow_null": 0,
+            "multiple": 1,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_6112bba3de58f",
+            "label": "Выбрать доп. параметры",
+            "name": "select_additional_params",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "show_in_rest": 0,
+            "edit_in_rest": 0,
+            "choices": {
+                "3G\/4G Модуль": "3G\/4G Модуль",
+                "WiFi модуль": "WiFi модуль",
+                "Датчик яркости": "Датчик яркости",
+                "Датчик температуры": "Датчик температуры"
+            },
+            "default_value": [],
+            "allow_null": 0,
+            "multiple": 1,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_6112bbd4de591",
+            "label": "Выбрать тип монтажа",
+            "name": "select_install_type",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "show_in_rest": 0,
+            "edit_in_rest": 0,
+            "choices": {
+                "Под ключ": "Под ключ",
+                "Шефмонтаж": "Шефмонтаж",
+                "Не нужен": "Не нужен"
+            },
+            "default_value": [],
+            "allow_null": 0,
+            "multiple": 1,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_61154966e755d",
+            "label": "Картинка",
+            "name": "calc_image",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "show_in_rest": 0,
+            "edit_in_rest": 0,
+            "return_format": "url",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "9"
+            }
+        ],
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "11"
+            }
+        ]
+    ],
+    "menu_order": 7,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1628785035
+}
