@@ -178,6 +178,7 @@ body {
     min-width: 320px;
     overflow-x: hidden !important;
     color: #171631;
+    background-color: #2A164F;
 }
 
 .container {
@@ -201,7 +202,7 @@ body {
     align-items: center;
     margin-top: 7px;
     transition: all .3s ease-in-out;
-    background-image: linear-gradient(94.27deg, var(--color-one) 0%, var(--color-two) 100%);
+    background-image: linear-gradient(94.27deg, #B721FF 0%, #21D4FD 100%);
 }
 
 .btn:hover {
@@ -246,10 +247,12 @@ header {
 .menu-headermenu-container ul a {
     font-size: 14px;
     letter-spacing: 0.095em;
+    color: #FFF;
+    opacity: .5;
 }
 
 .menu-headermenu-container ul a:hover {
-    color: rgba(23, 22, 49, 0.5);
+    opacity: 1;
 }
 
 .logo img {

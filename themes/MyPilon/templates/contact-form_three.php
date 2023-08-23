@@ -12,57 +12,12 @@ $form = get_field('form_3');
 ?>
 <section id="main-form-three">
     <div class="container">
-        <svg id="cross-svg" width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M1 7.59961L32.231 25.6308M25.6311 0.999724L7.59989 32.2307" stroke="<?= $colorOne;?>"
-                stroke-width="4" />
-        </svg>
+
 
         <div class="main-form__block"
             style="background-image: linear-gradient(94.27deg, <?= $colorOne;?>f2 0%, <?= $colorTwo; ?>f2 100%), url(<?= $image;?>);">
             <?php if (!empty($title)) : ?>
 
-            <svg id="circles" width="70" height="43" viewBox="0 0 70 43" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle r="2.43671" transform="matrix(1 0 0 -1 2.43671 2.4367)" fill="white" fill-opacity="0.2" />
-                <circle r="2.43671" transform="matrix(1 0 0 -1 2.43671 11.7405)" fill="white" fill-opacity="0.2" />
-                <circle r="2.43671" transform="matrix(1 0 0 -1 2.43671 21.0443)" fill="white" fill-opacity="0.2" />
-                <circle r="2.43671" transform="matrix(1 0 0 -1 2.43671 30.3481)" fill="white" fill-opacity="0.2" />
-                <circle r="2.43671" transform="matrix(1 0 0 -1 2.43671 39.6519)" fill="white" fill-opacity="0.2" />
-                <circle r="2.43671" transform="matrix(1 0 0 -1 39.6519 2.4367)" fill="white" fill-opacity="0.2" />
-                <circle r="2.43671" transform="matrix(1 0 0 -1 39.6519 11.7405)" fill="white" fill-opacity="0.2" />
-                <circle r="2.43671" transform="matrix(1 0 0 -1 39.6519 21.0443)" fill="white" fill-opacity="0.2" />
-                <circle r="2.43671" transform="matrix(1 0 0 -1 39.6519 30.3481)" fill="white" fill-opacity="0.2" />
-                <circle r="2.43671" transform="matrix(1 0 0 -1 39.6519 39.6519)" fill="white" fill-opacity="0.2" />
-                <circle r="2.43671" transform="matrix(1 0 0 -1 11.7405 2.4367)" fill="white" fill-opacity="0.2" />
-                <circle r="2.43671" transform="matrix(1 0 0 -1 11.7405 11.7405)" fill="white" fill-opacity="0.2" />
-                <circle r="2.43671" transform="matrix(1 0 0 -1 11.7405 21.0443)" fill="white" fill-opacity="0.2" />
-                <circle r="2.43671" transform="matrix(1 0 0 -1 11.7405 30.3481)" fill="white" fill-opacity="0.2" />
-                <circle r="2.43671" transform="matrix(1 0 0 -1 11.7405 39.6519)" fill="white" fill-opacity="0.2" />
-                <circle r="2.43671" transform="matrix(1 0 0 -1 48.9557 2.4367)" fill="white" fill-opacity="0.2" />
-                <circle r="2.43671" transform="matrix(1 0 0 -1 48.9557 11.7405)" fill="white" fill-opacity="0.2" />
-                <circle r="2.43671" transform="matrix(1 0 0 -1 48.9557 21.0443)" fill="white" fill-opacity="0.2" />
-                <circle r="2.43671" transform="matrix(1 0 0 -1 48.9557 30.3481)" fill="white" fill-opacity="0.2" />
-                <circle r="2.43671" transform="matrix(1 0 0 -1 48.9557 39.6519)" fill="white" fill-opacity="0.2" />
-                <circle r="2.43671" transform="matrix(1 0 0 -1 21.0443 2.4367)" fill="white" fill-opacity="0.2" />
-                <circle r="2.43671" transform="matrix(1 0 0 -1 21.0443 11.7405)" fill="white" fill-opacity="0.2" />
-                <circle r="2.43671" transform="matrix(1 0 0 -1 21.0443 21.0443)" fill="white" fill-opacity="0.2" />
-                <circle r="2.43671" transform="matrix(1 0 0 -1 21.0443 30.3481)" fill="white" fill-opacity="0.2" />
-                <circle r="2.43671" transform="matrix(1 0 0 -1 21.0443 39.6519)" fill="white" fill-opacity="0.2" />
-                <circle r="2.43671" transform="matrix(1 0 0 -1 58.2595 2.4367)" fill="white" fill-opacity="0.2" />
-                <circle r="2.43671" transform="matrix(1 0 0 -1 58.2595 11.7405)" fill="white" fill-opacity="0.2" />
-                <circle r="2.43671" transform="matrix(1 0 0 -1 58.2595 21.0443)" fill="white" fill-opacity="0.2" />
-                <circle r="2.43671" transform="matrix(1 0 0 -1 58.2595 30.3481)" fill="white" fill-opacity="0.2" />
-                <circle r="2.43671" transform="matrix(1 0 0 -1 58.2595 39.6519)" fill="white" fill-opacity="0.2" />
-                <circle r="2.43671" transform="matrix(1 0 0 -1 30.3481 2.4367)" fill="white" fill-opacity="0.2" />
-                <circle r="2.43671" transform="matrix(1 0 0 -1 30.3481 11.7405)" fill="white" fill-opacity="0.2" />
-                <circle r="2.43671" transform="matrix(1 0 0 -1 30.3481 21.0443)" fill="white" fill-opacity="0.2" />
-                <circle r="2.43671" transform="matrix(1 0 0 -1 30.3481 30.3481)" fill="white" fill-opacity="0.2" />
-                <circle r="2.43671" transform="matrix(1 0 0 -1 30.3481 39.6519)" fill="white" fill-opacity="0.2" />
-                <circle r="2.43671" transform="matrix(1 0 0 -1 67.5633 2.4367)" fill="white" fill-opacity="0.2" />
-                <circle r="2.43671" transform="matrix(1 0 0 -1 67.5633 11.7405)" fill="white" fill-opacity="0.2" />
-                <circle r="2.43671" transform="matrix(1 0 0 -1 67.5633 21.0443)" fill="white" fill-opacity="0.2" />
-                <circle r="2.43671" transform="matrix(1 0 0 -1 67.5633 30.3481)" fill="white" fill-opacity="0.2" />
-                <circle r="2.43671" transform="matrix(1 0 0 -1 67.5633 39.6519)" fill="white" fill-opacity="0.2" />
-            </svg>
 
             <div class="main-form__block-title"><?= $title ?? '' ?></div>
             <?php endif ?>

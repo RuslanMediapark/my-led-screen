@@ -22,108 +22,6 @@ $workTime = get_field('work_time', 'option');
 ?>
 
 <body data-color-one="<?= $colorOne ?>" data-color-two="<?= $colorTwo ?>" data-footer-color="<?=$footerColor?>">
-    <svg class="body-bg-svg-left" width="638" height="807" viewBox="0 0 638 807" fill="none"
-        xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd" clip-rule="evenodd"
-            d="M-434.963 42.8926C-375.385 -51.7811 -340.043 -167.217 -242.438 -221.88C-144.181 -276.908 -24.8259 -268.619 86.0706 -248.907C192.955 -229.908 295.595 -188.594 373.007 -112.486C449.586 -37.1958 473.542 69.1512 511.677 169.532C559.939 296.57 674.539 424.244 624.975 550.758C575.664 676.625 411.025 705.345 283.818 751.145C174.586 790.473 59.1303 824.533 -53.1378 794.905C-158.365 767.136 -214.719 661.118 -302.27 596.475C-408.266 518.214 -588.551 505.022 -619.258 376.914C-649.647 250.137 -504.392 153.219 -434.963 42.8926Z"
-            fill="url(#paint0_linear)" fill-opacity="0.05" />
-    </svg>
-
-    <svg class="body-bg-svg-right" width="728" height="831" viewBox="0 0 728 831" fill="none"
-        xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd" clip-rule="evenodd"
-            d="M51.5294 326.487C62.113 215.129 41.7088 96.1408 104.26 3.39249C167.228 -89.9741 277.539 -136.3 385.437 -168.618C489.432 -199.766 599.683 -209.077 703.068 -175.962C805.341 -143.204 874.605 -59.0244 953.843 13.4449C1054.13 105.159 1213.93 167.58 1226.62 302.862C1239.25 437.453 1105.16 537.211 1012.19 635.369C932.349 719.657 844.585 802.044 730.998 826.124C624.534 848.695 526.489 779.393 419.211 761.081C289.332 738.91 122.408 808.285 37.3206 707.713C-46.8829 608.186 39.196 456.256 51.5294 326.487Z"
-            fill="url(#paint0_linear)" fill-opacity="0.05" />
-    </svg>
-
-    <svg class="body-svg-dots-one" width="70" height="43" viewBox="0 0 70 43" fill="none"
-        xmlns="http://www.w3.org/2000/svg">
-        <circle r="2.43671" transform="matrix(1 0 0 -1 2.43671 2.4367)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 2.43671 11.7405)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 2.43671 21.0442)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 2.43671 30.3481)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 2.43671 39.6519)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 39.6519 2.4367)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 39.6519 11.7405)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 39.6519 21.0442)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 39.6519 30.3481)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 39.6519 39.6519)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 11.7405 2.4367)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 11.7405 11.7405)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 11.7405 21.0442)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 11.7405 30.3481)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 11.7405 39.6519)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 48.9558 2.4367)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 48.9558 11.7405)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 48.9558 21.0442)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 48.9558 30.3481)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 48.9558 39.6519)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 21.0443 2.4367)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 21.0443 11.7405)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 21.0443 21.0442)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 21.0443 30.3481)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 21.0443 39.6519)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 58.2595 2.4367)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 58.2595 11.7405)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 58.2595 21.0442)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 58.2595 30.3481)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 58.2595 39.6519)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 30.3481 2.4367)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 30.3481 11.7405)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 30.3481 21.0442)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 30.3481 30.3481)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 30.3481 39.6519)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 67.5633 2.4367)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 67.5633 11.7405)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 67.5633 21.0442)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 67.5633 30.3481)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 67.5633 39.6519)" fill="<?= $colorTwo ?>" />
-    </svg>
-
-    <svg class="body-svg-line-one" width="40" height="4" viewBox="0 0 40 4" fill="none"
-        xmlns="http://www.w3.org/2000/svg">
-        <path d="M0 2C8.37383 2 30.1558 2 40 2" stroke="<?= $colorTwo ?>" stroke-width="4" />
-    </svg>
-
-    <svg class="body-svg-line-two" width="107" height="4" viewBox="0 0 107 4" fill="none"
-        xmlns="http://www.w3.org/2000/svg">
-        <path d="M0 2C22.4 2 80.6667 2 107 2" stroke="<?= $colorTwo ?>" stroke-width="4" />
-    </svg>
-
-    <svg class="body-svg-cross-one" width="29" height="29" viewBox="0 0 29 29" fill="none"
-        xmlns="http://www.w3.org/2000/svg">
-        <path d="M2 2L27.5 27.5M27.5 2L2 27.5" stroke="<?= $colorTwo ?>" stroke-width="4" />
-    </svg>
-
-    <svg class="body-svg-dots-two" width="33" height="43" viewBox="0 0 33 43" fill="none"
-        xmlns="http://www.w3.org/2000/svg">
-        <circle r="2.43671" transform="matrix(1 0 0 -1 2.43671 2.4367)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 2.43671 11.7404)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 2.43671 21.0441)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 2.43671 30.3481)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 2.43671 39.6518)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 11.7405 2.4367)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 11.7405 11.7404)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 11.7405 21.0441)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 11.7405 30.3481)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 11.7405 39.6518)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 21.0443 2.4367)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 21.0443 11.7404)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 21.0443 21.0441)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 21.0443 30.3481)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 21.0443 39.6518)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 30.3481 2.4367)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 30.3481 11.7404)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 30.3481 21.0441)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 30.3481 30.3481)" fill="<?= $colorTwo ?>" />
-        <circle r="2.43671" transform="matrix(1 0 0 -1 30.3481 39.6518)" fill="<?= $colorTwo ?>" />
-    </svg>
-
-    <svg class="body-svg-cross-two" width="29" height="29" viewBox="0 0 29 29" fill="none"
-        xmlns="http://www.w3.org/2000/svg">
-        <path d="M2 2L27.5 27.5M27.5 2L2 27.5" stroke="<?= $colorTwo ?>" stroke-width="4" />
-    </svg>
-
 
     <header id="header">
         <div class="container">
@@ -141,11 +39,6 @@ $workTime = get_field('work_time', 'option');
                             fill="#171631" />
                     </svg>
                 </div>
-                <div class="menu">
-                    <?php wp_nav_menu([
-          'menu' => 'HeaderMenu',
-        ]); ?>
-                </div>
                 <div class="logo">
                     <a href="/">
                         <?php
@@ -158,6 +51,12 @@ $workTime = get_field('work_time', 'option');
               ?>
                     </a>
                 </div>
+                <div class="menu">
+                    <?php wp_nav_menu([
+          'menu' => 'HeaderMenu',
+        ]); ?>
+                </div>
+
                 <div class="contact-phones">
                     <a class="number" href="">+7 (499) 404-00-50</a>
                     <div class="social-contancs">
