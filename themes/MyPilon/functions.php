@@ -3,7 +3,7 @@ function mypilon_scripts_styles()
 {
   wp_register_style('swiper_css', get_template_directory_uri() . '/assets/css/swiper.css', array(), '1.2', 'screen');
   wp_register_style('select', get_template_directory_uri() . '/assets/css/nice-select.css', array(), '1.2', 'screen');
-  wp_register_style('my_style', get_template_directory_uri() . '/assets/css/main.css', array(), '1.2', 'screen');
+  wp_register_style('my_style', get_template_directory_uri() . '/assets/css/main.css', array(), getHasFile('/assets/css/main.css'), 'screen');
   wp_register_style('fancybox', get_template_directory_uri() . '/assets/css/fancybox.css', array(), '1.2', 'screen');
 
   wp_enqueue_style('swiper_css');
@@ -18,7 +18,7 @@ function mypilon_scripts_styles()
   wp_enqueue_script('mod', get_template_directory_uri() . '/assets/js/modernizer.js', array(), '1.0', true);
   wp_enqueue_script('spin', get_template_directory_uri() . '/assets/js/360.js', array(), '1.0', true);
   wp_enqueue_script('selectjs', get_template_directory_uri() . '/assets/js/nice-select.min.js', array(), '1.0', true);
-  wp_enqueue_script('main', get_template_directory_uri() . '/assets/js/main.js', array(), '1.0', true);
+  wp_enqueue_script('main', get_template_directory_uri() . '/assets/js/main.js', array(), getHasFile('/assets/js/main.js'), true);
   wp_localize_script('main', 'ajax', [
     'ajaxurl' => admin_url('admin-ajax.php'),
   ]);
@@ -84,3 +84,15 @@ add_filter( 'acf/rest_api/field_settings/show_in_rest', '__return_true' );
 
 // Enable the option edit in rest
 add_filter( 'acf/rest_api/field_settings/edit_in_rest', '__return_true' );
+
+function getHasFile(
+    string $path,
+): string {
+    $fullPath = sprintf('%s/dist/%s', get_template_directory(), $path);
+
+    if (!file_exists($fullPath)) {
+        return rand(1,999);
+    }
+
+    return hash_file('md5', $fullPath);
+}
