@@ -6,6 +6,8 @@ $hero_dignity = get_field('hero_dignity');
 ?>
 
 <section id="hero">
+    <img class="circle" src="<? bloginfo('template_url'); ?>/assets/images/bg-items/circle.png" />
+    <img class="item-one" src="<? bloginfo('template_url'); ?>/assets/images/bg-items/item-one.png" />
     <div class="container">
         <div class="hero__block">
             <?php if ($hero_title) : ?>

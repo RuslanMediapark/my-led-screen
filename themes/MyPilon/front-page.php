@@ -1,9 +1,6 @@
 <?php
 get_header();
 $pageId = 0;
-$pageColors = get_field('page_colors', get_the_ID());
-$colorOne = $pageColors['color_one'];
-$colorTwo = $pageColors['color_two'];
 ?>
 <main>
 <?php
