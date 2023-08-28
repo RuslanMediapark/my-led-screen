@@ -890,47 +890,36 @@ div[role="button"]:hover path {
 
 .delivery-methods__block {
     background-color: #F6F6FB;
-    border-radius: 8px;
+    border-radius: 10px;
     display: flex;
+    flex-direction: column;
     position: relative;
+    align-items: center;
+    min-height: 266px;
+    height: max-content;
+    padding: 39px 19px 17px 19px;
+    box-sizing: border-box;
 }
 
 .delivery-methods__blocks {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-areas:
-        "first first first first second second"
-        "third third third fourth fourth fourth";
-    gap: 40px;
-}
-
-.delivery-methods__block:nth-child(1) {
-    grid-area: first;
-}
-
-.delivery-methods__block:nth-child(2) {
-    grid-area: second;
-}
-
-.delivery-methods__block:nth-child(3) {
-    grid-area: third;
-}
-
-.delivery-methods__block:nth-child(4) {
-    grid-area: fourth;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
 }
 
 .delivery-methods__block-title {
     font-weight: 600;
-    font-size: 24px;
-    line-height: 127.5%;
-    letter-spacing: 0.02em;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin: 24px 0 10px 0;
 }
 
 .delivery-methods__block-text {
-    font-size: 16px;
-    line-height: 151%;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000B2;
+    text-align: center;
 }
 
 .delivery-methods__info {
@@ -939,61 +928,21 @@ div[role="button"]:hover path {
     max-width: 300px;
 }
 
-.delivery-methods__block.top {
-    flex-direction: column;
-    justify-content: center;
-}
-
-.delivery-methods__block.top .delivery-methods__block-image {
-    text-align: center;
-}
-
-.delivery-methods__block.left .delivery-methods__info {
-    margin-top: 60px;
-    margin-right: 60px;
-}
-
-.delivery-methods__block.left .delivery-methods__block-image {
-    margin-left: -170px;
-}
-
 .delivery-methods__title {
     font-weight: 600;
-    font-size: 34px;
-    line-height: 41px;
+    font-size: 40px;
+    line-height: 48px;
     letter-spacing: 0.025em;
     text-align: center;
     margin-bottom: 40px;
+    color: #fff;
 }
 
 #delivery-methods {
     margin-top: 169px;
-}
-
-.delivery-methods__block.right-bottom .delivery-methods__info {
-    margin-top: 60px;
-    margin-left: 60px;
-}
-
-.delivery-methods__block.right-bottom .delivery-methods__block-image {
-    align-self: flex-end;
-    position: absolute;
-    right: 0px;
-}
-
-.delivery-methods__block.top .delivery-methods__block-title {
-    margin-left: 50px;
-    margin-top: 50px;
-}
-
-.delivery-methods__block.top-right {
-    flex-direction: column;
-}
-
-.delivery-methods__block.top-right .delivery-methods__info {
-    align-self: flex-start;
-    margin-bottom: 50px;
-    margin-left: 50px;
+    padding: 70px 0 81px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .modal-form-block .wpcf7 form .wpcf7-response-output {
@@ -1002,10 +951,6 @@ div[role="button"]:hover path {
 body .wpcf7 form .wpcf7-response-output {
     margin: 0 20px 20px;
     color: #fff;
-}
-.delivery-methods__block.top-right .delivery-methods__block-image {
-    align-self: flex-end;
-    transform: translateY(-30px);
 }
 
 .four_stages__title {
@@ -2298,13 +2243,6 @@ input[type=range]::-webkit-slider-thumb {
         padding: 50px 0 0 30px;
     }
 
-    .delivery-methods__blocks {
-        grid-template-columns: repeat(8, 1fr);
-        grid-template-areas:
-            "first first first first first second second second"
-            "third third third third third fourth fourth fourth";
-    }
-
     .body-bg-svg-right,
     .body-bg-svg-left {
         display: none;
@@ -2355,6 +2293,10 @@ input[type=range]::-webkit-slider-thumb {
     #solution_slider .swiper-button-prev,
     #solution_slider .swiper-container-rtl .swiper-button-next {
         left: 10px;
+    }
+
+    .delivery-methods__blocks {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -2540,16 +2482,6 @@ input[type=range]::-webkit-slider-thumb {
 
     #solution_slider {
         margin-top: 107px;
-    }
-
-    .delivery-methods__blocks {
-        grid-template-columns: 1fr;
-        grid-template-rows: initial;
-        grid-template-areas:
-            "first"
-            "second"
-            "third"
-            "fourth";
     }
 
     .delivery-methods__info {
@@ -3122,6 +3054,10 @@ input[type=range]::-webkit-slider-thumb {
     .column .mediapolis_is__block-first-row-dignity>div,
     .column .mediapolis_is__block-second-row-dignity>div {
         margin-bottom: 20px;
+    }
+
+    .delivery-methods__blocks {
+        grid-template-columns: 1fr;
     }
 }
 
