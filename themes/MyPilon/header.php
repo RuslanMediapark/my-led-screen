@@ -18,7 +18,6 @@ $workTime = get_field('work_time', 'option');
 ?>
 
 <body>
-
     <header id="header">
         <div class="container">
             <div class="header-content">
@@ -97,6 +96,7 @@ $workTime = get_field('work_time', 'option');
             </div>
         </div>
     </header>
+    <img src="<? bloginfo('template_url'); ?>/assets/images/bg-items/transparent.png" class="top-transparent" />
     <div class="overview"></div>
     <div class="side-menu">
         <svg id="close-menu" width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">

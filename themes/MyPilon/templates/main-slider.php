@@ -47,29 +47,6 @@ $hero_dignity = get_field('hero_dignity');
 
             </div>
             <?php endif; ?>
-            <?php if ($hero_dignity) : ?>
-            <div class="hero__block-dignity">
-                <?php foreach ($hero_dignity as $dignity) : ?>
-                <div class="hero__block-dignity-item">
-                    <?php if ($dignity['image']) : ?>
-                    <div class="hero__block-dignity-item-image">
-                        <img class="style-svg" src="<?= $dignity['image']['url'] ?>" alt="">
-                    </div>
-                    <?php endif; ?>
-                    <?php if ($dignity['title']) : ?>
-                    <div class="hero__block-dignity-item-title">
-                        <?= $dignity['title'] ?? '' ?>
-                    </div>
-                    <?php endif; ?>
-                </div>
-                <?php endforeach; ?>
-            </div>
-            <div class="hero__arrow">
-                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="22" viewBox="0 0 39 22" fill="none">
-                    <path d="M2 2C19.322 19.4309 20.8842 21.0029 19.5 19.61L37 2" stroke="#180C00" stroke-width="4" />
-                </svg>
-            </div>
-            <?php endif; ?>
         </div>
     </div>
 </section>

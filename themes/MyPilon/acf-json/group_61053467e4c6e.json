@@ -39,7 +39,7 @@
             "collapsed": "",
             "min": 2,
             "max": 6,
-            "layout": "table",
+            "layout": "block",
             "button_label": "",
             "sub_fields": [
                 {
@@ -67,8 +67,8 @@
                     "mime_types": ""
                 },
                 {
-                    "key": "field_6105356e09841",
-                    "label": "Заголовок",
+                    "key": "field_64f11f2ce2a4a",
+                    "label": "Подзаголовок",
                     "name": "title",
                     "type": "text",
                     "instructions": "",
@@ -79,6 +79,29 @@
                         "class": "",
                         "id": ""
                     },
+                    "show_in_rest": 0,
+                    "edit_in_rest": 0,
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_64f11ca88eee1",
+                    "label": "Описание",
+                    "name": "description",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "show_in_rest": 0,
+                    "edit_in_rest": 0,
                     "default_value": "",
                     "placeholder": "",
                     "prepend": "",
@@ -120,5 +143,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1629621114
+    "modified": 1693523783
 }

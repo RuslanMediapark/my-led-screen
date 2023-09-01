@@ -22,12 +22,14 @@ $views_blocks = get_field('views_block');
                   <?php if ($item['title']) : ?>
                       <h3 class="led-screen-type-block-item-title"><?= $item['title'] ?></h3>
                   <?php endif ?>
+                  <?php if ($item['description']) : ?>
+                      <з class="led-screen-type-block-item-description"><?= $item['description'] ?></з>
+                  <?php endif ?>
                   <?php if ($item['link']) : ?>
                       <a
                         class="led-screen-type-block-item-link"
-                        style="background: linear-gradient(94.27deg, <?= $colorOne; ?> 0%, <?= $colorTwo; ?> 100%);"
                         href="<?= $item['link']['url'] ?>">
-                          <span><p style="background: -webkit-linear-gradient(94.27deg, <?= $colorOne; ?> 0%, <?= $colorTwo; ?> 100%); -webkit-background-clip: text;">Подробнее</p></span>
+                        Подробнее
                       </a>
                   <?php endif ?>
                 </div>

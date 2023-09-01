@@ -5,7 +5,7 @@ $pageId = 0;
 <main>
 <?php
 include 'templates/main-slider.php';
-include 'templates/contact-form.php';
+// include 'templates/contact-form.php';
 include 'templates/led-screen-type.php';
 include 'templates/projects-slider.php';
 include 'templates/screen-placement.php';
