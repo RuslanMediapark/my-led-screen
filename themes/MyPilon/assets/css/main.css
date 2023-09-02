@@ -530,10 +530,12 @@ header .logo {
   line-height: 41px;
   text-align: center;
   letter-spacing: 0.025em;
-  color: #171631;
+  color: #fff;
   margin-bottom: 55px;
 }
-
+.project_slider-block .swiper-slide {
+    max-width: 850px;
+}
 /* project slider end  */
 
 .main-form__block {
@@ -777,14 +779,14 @@ div[role="button"]:hover path {
 #project_slider .swiper-container-rtl .swiper-button-prev,
 #solution_slider .swiper-button-next,
 #solution_slider .swiper-container-rtl .swiper-button-prev {
-  right: -90px;
+  right: 200px;
 }
 
 #project_slider .swiper-button-prev,
 #project_slider .swiper-container-rtl .swiper-button-next,
 #solution_slider .swiper-button-prev,
 #solution_slider .swiper-container-rtl .swiper-button-next {
-  left: -90px;
+  left: 200px;
 }
 
 .our_partners__title {
