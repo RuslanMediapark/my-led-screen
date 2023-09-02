@@ -1,4 +1,5 @@
 @import url(../fonts/Gilroy/stylesheet.css);
+@import "form.css";
 
 html,
 body,
@@ -411,93 +412,6 @@ header .logo {
 }
 
 /* hero end */
-
-/* form start */
-
-.main-form__block {
-  min-height: 300px;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: 100% 50%;
-  border-radius: 8px;
-}
-
-.main-form__block-title {
-  padding: 50px 0 0 62px;
-  font-weight: 600;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.025em;
-  max-width: 440px;
-  color: #ffffff;
-}
-
-.form {
-  display: flex;
-  padding: 38px 60px 15px 62px;
-}
-
-.form-data {
-  width: 100%;
-  margin-right: 20px;
-}
-
-.form-data:last-child {
-  margin-right: 0;
-  padding-top: 28px;
-  width: 100%;
-  max-width: 280px;
-}
-
-.form-data:last-child input {
-  padding: 0;
-  background: #171631;
-  color: #ffffff;
-  cursor: pointer;
-  max-width: unset;
-  font-weight: bold;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-
-.form-data input {
-  padding: 0 40px;
-  width: 100%;
-  max-width: calc(100% - 80px);
-  height: 70px;
-  border-radius: 50px;
-  border: unset;
-  margin-top: 8px;
-}
-
-.form-data input:focus-visible {
-  outline: unset;
-}
-
-.form-data label {
-  color: #ffffff;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 0.025em;
-}
-
-.wpcf7 form.invalid .wpcf7-response-output,
-.wpcf7 form.unaccepted .wpcf7-response-output {
-  display: none;
-}
-
-body .wpcf7-not-valid-tip {
-  color: tomato;
-  padding-top: 10px;
-  text-align: center;
-  font-weight: 600 !important;
-  font-size: 16px !important;
-  line-height: 19px;
-  letter-spacing: 0.025em;
-}
-
-/* form end */
 
 /* led-screen-type start */
 
@@ -2089,46 +2003,6 @@ input[type="range"]::-webkit-slider-thumb {
   border-radius: 8px;
 }
 
-.modal-block-title {
-  font-weight: bold;
-  font-size: 34px;
-  line-height: 41px;
-  letter-spacing: 0.025em;
-  margin-bottom: 20px;
-  max-width: 461px;
-}
-
-.modal-block-text {
-  font-size: 20px;
-  line-height: 127.5%;
-  letter-spacing: 0.02em;
-  color: rgba(38, 32, 40, 0.6);
-}
-
-.modal-block-form .form {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 0;
-  margin-top: 40px;
-  margin-bottom: -20px;
-}
-
-.modal-block-form .form-data input:not([type="submit"]) {
-  background: #f0f7f9;
-}
-
-.modal-block-form .form-data input[type="submit"] {
-  background: linear-gradient(
-    94.27deg,
-    var(--color-one) 0%,
-    var(--color-two) 100%
-  );
-}
-
-.modal-block-form .form-data label {
-  color: inherit;
-}
-
 .side-menu {
   display: none;
 }
@@ -2315,14 +2189,10 @@ input[type="range"]::-webkit-slider-thumb {
     padding: 38px 30px 15px 30px;
   }
 
-  .main-form__block-title {
-    padding: 50px 0 0 30px;
-  }
-
-  .body-bg-svg-right,
-  .body-bg-svg-left {
-    display: none;
-  }
+    .body-bg-svg-right,
+    .body-bg-svg-left {
+        display: none;
+    }
 
   #where_to_put {
     margin-top: 0;
@@ -2457,13 +2327,9 @@ input[type="range"]::-webkit-slider-thumb {
     max-width: unset;
   }
 
-  .main-form__block-title {
-    padding: 50px 0 0 79px;
-  }
-
-  .form-data {
-    margin: 0;
-  }
+    .form-data {
+        margin: 0;
+    }
 
   .led-screen-type-block-item {
     margin-right: 20px;
@@ -2841,13 +2707,9 @@ input[type="range"]::-webkit-slider-thumb {
     padding: 38px 26px 15px 26px;
   }
 
-  .main-form__block-title {
-    padding: 50px 0 0 26px;
-  }
-
-  .led-screen-type-block-item {
-    margin-bottom: 74px;
-  }
+    .led-screen-type-block-item {
+        margin-bottom: 74px;
+    }
 
   .project_slider-block-title,
   .led-screen-type-title,
@@ -2976,15 +2838,11 @@ input[type="range"]::-webkit-slider-thumb {
     min-height: 300px;
   }
 
-  .main-form__block-title {
-    font-size: 24px;
-  }
-
-  .mediapolis_is__block-first-row-dignity,
-  .mediapolis_is__block-second-row-dignity {
-    flex-direction: column;
-    padding-left: 20px;
-  }
+    .mediapolis_is__block-first-row-dignity,
+    .mediapolis_is__block-second-row-dignity {
+        flex-direction: column;
+        padding-left: 20px;
+    }
 
   .mediapolis_is__block-second-row-dignity-image img {
     max-width: 40px;
@@ -3085,14 +2943,9 @@ input[type="range"]::-webkit-slider-thumb {
     grid-row-end: 24;
   }
 
-  .main-form__block-title {
-    font-size: 20px;
-    line-height: 24px;
-  }
-
-  .main-module__block {
-    margin-top: 50px;
-  }
+    .main-module__block {
+        margin-top: 50px;
+    }
 
   .main-module__block-left-title,
   .main-module__block-left-subtitle {

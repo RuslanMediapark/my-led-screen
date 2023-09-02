@@ -1,11 +1,53 @@
 {
-    "key": "group_610add7a43e4c",
-    "title": "Форма 2",
+    "key": "group_64f319f8271af",
+    "title": "Форма вопрос",
     "fields": [
         {
-            "key": "field_64f2f2f413900",
+            "key": "field_64f31a01deb87",
+            "label": "Заголовок",
+            "name": "form_title_question",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "show_in_rest": 0,
+            "edit_in_rest": 0,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_64f31a11deb88",
+            "label": "Подзаголовок",
+            "name": "form_sub_title_question",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "show_in_rest": 0,
+            "edit_in_rest": 0,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_64f31a21deb89",
             "label": "Картинка",
-            "name": "form_image_2",
+            "name": "form_image_question",
             "type": "image",
             "instructions": "",
             "required": 0,
@@ -29,29 +71,10 @@
             "mime_types": ""
         },
         {
-            "key": "field_610add7a4bd19",
-            "label": "Заголовок",
-            "name": "form_title_2",
-            "type": "text",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
-        },
-        {
-            "key": "field_64f2f1f07f7df",
-            "label": "Подзаголовок",
-            "name": "form_sub_title_2",
-            "type": "text",
+            "key": "field_64f31a2cdeb8a",
+            "label": "Форма",
+            "name": "form_question",
+            "type": "acf_cf7",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -61,26 +84,7 @@
                 "id": ""
             },
             "show_in_rest": 0,
-            "edit_in_rest": 0,
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
-        },
-        {
-            "key": "field_610add7a4bd4e",
-            "label": "Форма",
-            "name": "form_2",
-            "type": "acf_cf7",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            }
+            "edit_in_rest": 0
         }
     ],
     "location": [
@@ -88,14 +92,14 @@
             {
                 "param": "page",
                 "operator": "==",
-                "value": "13"
+                "value": "7"
             }
         ],
         [
             {
                 "param": "page",
                 "operator": "==",
-                "value": "7"
+                "value": "13"
             }
         ],
         [
@@ -113,7 +117,7 @@
             }
         ]
     ],
-    "menu_order": 6,
+    "menu_order": 0,
     "position": "normal",
     "style": "default",
     "label_placement": "top",
@@ -121,5 +125,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1693645508
+    "modified": 1693653611
 }
