@@ -4,6 +4,7 @@ $views_blocks = get_field('views_block');
 ?>
 
 <section id="led-screen-type">
+    <img class="item-two" src="<? bloginfo('template_url'); ?>/assets/images/bg-items/item-two.png" />  
     <div class="container">
         <div class="led-screen-type-block">
           <?php if (!empty($views_blocks)) : ?>
@@ -23,7 +24,7 @@ $views_blocks = get_field('views_block');
                       <h3 class="led-screen-type-block-item-title"><?= $item['title'] ?></h3>
                   <?php endif ?>
                   <?php if ($item['description']) : ?>
-                      <з class="led-screen-type-block-item-description"><?= $item['description'] ?></з>
+                      <p class="led-screen-type-block-item-description"><?= $item['description'] ?></p>
                   <?php endif ?>
                   <?php if ($item['link']) : ?>
                       <a

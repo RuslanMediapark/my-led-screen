@@ -7,6 +7,7 @@ $pageId = 0;
 include 'templates/main-slider.php';
 // include 'templates/contact-form.php';
 include 'templates/led-screen-type.php';
+include 'templates/why-me.php';
 include 'templates/projects-slider.php';
 include 'templates/screen-placement.php';
 include 'templates/contact-form_two.php';
