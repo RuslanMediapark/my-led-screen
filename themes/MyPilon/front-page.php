@@ -12,9 +12,10 @@ include 'templates/screen-placement.php';
 include 'templates/solution-slider.php';
 include 'templates/delivery-methods.php';
 include 'templates/four-stages.php';
-include 'templates/about-company.php';
 include 'templates/product-quality.php';
 
+
+include 'templates/about-company.php';
 include 'templates/our-partners.php';
 include 'templates/contact-form.php';
 include 'templates/contact-form_two.php';

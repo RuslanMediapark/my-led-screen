@@ -3,10 +3,10 @@
     "title": "О компании",
     "fields": [
         {
-            "key": "field_61098b170bbdf",
-            "label": "Заголовок",
-            "name": "about_company_title",
-            "type": "text",
+            "key": "field_64f442aaf2f51",
+            "label": "Картинка",
+            "name": "about_company_image",
+            "type": "image",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -15,17 +15,24 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
+            "show_in_rest": 0,
+            "edit_in_rest": 0,
+            "return_format": "array",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
         },
         {
-            "key": "field_61098b8be9a77",
-            "label": "Ссылка на видео",
-            "name": "about_company_video",
-            "type": "text",
+            "key": "field_64f44346b9461",
+            "label": "Текст",
+            "name": "about_company_text",
+            "type": "wysiwyg",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -34,89 +41,13 @@
                 "class": "",
                 "id": ""
             },
+            "show_in_rest": 0,
+            "edit_in_rest": 0,
             "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
-        },
-        {
-            "key": "field_61098baae9a78",
-            "label": "Подпись видео",
-            "name": "about_company_caption_video",
-            "type": "text",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
-        },
-        {
-            "key": "field_61098bc3e9a79",
-            "label": "Блоки",
-            "name": "about_company_blocks",
-            "type": "repeater",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "collapsed": "",
-            "min": 0,
-            "max": 0,
-            "layout": "block",
-            "button_label": "",
-            "sub_fields": [
-                {
-                    "key": "field_61098bd8e9a7a",
-                    "label": "Заголовок",
-                    "name": "title",
-                    "type": "text",
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "maxlength": ""
-                },
-                {
-                    "key": "field_61098bf1e9a7b",
-                    "label": "Текст",
-                    "name": "text",
-                    "type": "textarea",
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "placeholder": "",
-                    "maxlength": "",
-                    "rows": "",
-                    "new_lines": ""
-                }
-            ]
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
         }
     ],
     "location": [
@@ -136,5 +67,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1628360500
+    "modified": 1693729620
 }

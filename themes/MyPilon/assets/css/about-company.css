@@ -1,0 +1,47 @@
+.about_company__title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #fff;
+    margin-bottom: 47px;
+}
+
+.about_company__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.about_company__text {
+    color: #FFFFFFB2;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.about_company__wrapper .right img {
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 1199px) {
+    .about_company__wrapper {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+}
+
+@media (max-width: 639px) {
+    .about_company__title {
+        text-align: center;
+        margin-bottom: 16px;
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .about_company__text {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
