@@ -1,5 +1,6 @@
 @import url(../fonts/Gilroy/stylesheet.css);
 @import "form.css";
+@import "our-partners.css";
 
 html,
 body,
@@ -789,20 +790,6 @@ div[role="button"]:hover path {
   left: 200px;
 }
 
-.our_partners__title {
-  font-weight: 600;
-  font-size: 34px;
-  line-height: 41px;
-  letter-spacing: 0.025em;
-  text-align: center;
-  margin-bottom: 47px;
-}
-
-#our_partners {
-  margin-top: 185px;
-  margin-bottom: 163px;
-}
-
 #project_slider .swiper-slide,
 #solution_slider .swiper-slide {
   background-image: linear-gradient(
@@ -816,16 +803,6 @@ div[role="button"]:hover path {
 #solution_slider {
   overflow: hidden;
   padding-bottom: 30px;
-}
-
-.our-partner-slider .swiper-slide img {
-  max-height: 90px;
-  width: auto;
-  margin: 0 auto;
-}
-
-.our-partner-slider .swiper-wrapper {
-  align-items: center;
 }
 
 .screen-placement__block-info {
@@ -2360,7 +2337,6 @@ input[type="range"]::-webkit-slider-thumb {
   .project_slider-block-title,
   .led-screen-type-title,
   .screen-placement__block-info-title,
-  .our_partners__title,
   .solution_slider-block-title,
   .delivery-methods__title,
   .four_stages__title,
@@ -2408,11 +2384,6 @@ input[type="range"]::-webkit-slider-thumb {
   .screen-placement__block-image {
     text-align: center;
     margin: 0;
-  }
-
-  #our_partners {
-    margin-top: 112px;
-    margin-bottom: 107px;
   }
 
   .solution_slider-block-description {
@@ -2716,7 +2687,6 @@ input[type="range"]::-webkit-slider-thumb {
   .project_slider-block-title,
   .led-screen-type-title,
   .screen-placement__block-info-title,
-  .our_partners__title,
   .solution_slider-block-title,
   .delivery-methods__title,
   .four_stages__title,
