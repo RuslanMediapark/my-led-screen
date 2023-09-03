@@ -1,0 +1,132 @@
+.how-work__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.how-work__title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.how-work__subtitle {
+    font-family: Mulish;
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 60px;
+    color: #FFFFFFB2;
+}
+
+.how-work__blocks {
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    margin-bottom: 49px;
+}
+
+.how-work__block {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.block-number {
+    min-width: 80px;
+    min-height: 80px;
+    background: #fff;
+    font-family: IBM Plex Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    border-radius: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block-content__title {
+    font-family: IBM Plex Sans;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 29px;
+    margin-bottom: 6px;
+    color: #fff;
+}
+
+.block-content__subtitle {
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #FFFFFF99;
+}
+
+@media (min-width: 1200px) {
+    #how-work .container {
+        margin: 0 auto 0 0;
+        padding: 0 40px 0 0;
+    }
+}
+
+@media (max-width: 1199px) {
+    .how-work__wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .how-work__wrapper .left {
+        display: none;
+    }
+
+    .how-work__title {
+        text-align: center;
+    }
+
+    .how-work__subtitle {
+        text-align: center;
+    }
+
+    #how-work-callback {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 639px) {
+    .how-work__title {
+        margin-bottom: 16px;
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .how-work__subtitle {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 16px;
+    }
+
+    .how-work__block {
+        gap: 8px;
+    }
+
+    .block-number {
+        min-width: 50px;
+        min-height: 50px;
+        font-size: 22px;
+    }
+
+    .block-content__title {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .block-content__subtitle {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .how-work__blocks {
+        margin-bottom: 20px;
+    }
+}
