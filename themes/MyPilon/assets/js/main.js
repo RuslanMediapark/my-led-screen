@@ -42,8 +42,8 @@ $(document).ready(function () {
     });
 
     new Swiper(".solution-slider", {
-        slidesPerView: 'auto',
-        spaceBetween: 36,
+        slidesPerView: 3,
+        spaceBetween: 30,
         centeredSlides: true,
         loop: true,
         autoplay: {

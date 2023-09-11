@@ -720,7 +720,6 @@ header .logo {
 
 .project-slider .swiper-slide img,
 .solution-slider .swiper-slide img {
-  max-height: 310px;
   opacity: 0.6;
 }
 
@@ -783,6 +782,9 @@ div[role="button"]:hover path {
 #solution_slider .swiper-button-next,
 #solution_slider .swiper-container-rtl .swiper-button-prev {
   right: 200px;
+  background-color: #A24FFF;
+  width: 50px;
+  height: 50px;
 }
 
 #project_slider .swiper-button-prev,
@@ -790,8 +792,14 @@ div[role="button"]:hover path {
 #solution_slider .swiper-button-prev,
 #solution_slider .swiper-container-rtl .swiper-button-next {
   left: 200px;
+  background-color: #A24FFF;
+  width: 50px;
+  height: 50px;
 }
 
+#project_slider .swiper-button-next svg path, #project_slider .swiper-button-prev svg path{
+  stroke: #fff;
+}
 #project_slider .swiper-slide,
 #solution_slider .swiper-slide {
   background-image: linear-gradient(
@@ -816,18 +824,18 @@ div[role="button"]:hover path {
 }
 
 .solution_slider-block-title {
-  font-weight: 600;
-  font-size: 34px;
-  line-height: 41px;
-  letter-spacing: 0.025em;
-  margin-bottom: 17px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 23px;
+  margin-bottom: 20px;
+  color: #fff;
 }
 
 .solution_slider-block-description {
-  font-size: 24px;
-  line-height: 162%;
-  color: rgba(23, 22, 49, 0.6);
-  letter-spacing: 0.02em;
+  font-size: 18px;
+  line-height: 23px;
+  color: #fff;
+  opacity: .7;
   max-width: 850px;
   margin: 0 auto 39px;
 }
@@ -840,10 +848,13 @@ div[role="button"]:hover path {
 }
 
 #solution_slider {
-  margin-top: 151px;
-  margin-bottom: 83px;
+  margin-top: 90px;
+  margin-bottom: 90px;
 }
 
+#solution_slider .swiper-slide img {
+  height: 260px;
+}
 .solution_slider-block {
   margin-top: 32px;
 }
@@ -899,7 +910,8 @@ div[role="button"]:hover path {
 }
 
 #delivery-methods {
-  margin-top: 169px;
+  margin-top: 90px;
+  margin-bottom: 90px;
   padding: 70px 0 81px 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -913,6 +925,25 @@ body .wpcf7 form .wpcf7-response-output {
   color: #fff;
 }
 
+#delivery-methods {
+  background: linear-gradient(92.59deg, #470C85 -7.11%, #5451A7 53.22%, #2A0458 118.57%);
+  position: relative;
+}
+#delivery-methods .container {
+  position: relative;
+  z-index: 2;
+}
+.delivery-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.item-three {
+  position: absolute;
+}
 .four_stages__title {
   font-weight: 600;
   font-size: 34px;
@@ -1455,8 +1486,54 @@ footer .contact-phones {
 
 #project_slider {
   margin-bottom: 137px;
+  margin-top: 90px;
 }
-
+#project_slider .description {
+  color: #fff;
+  text-align: center;
+  max-width: 580px;
+  margin: 0 auto;
+}
+.form-transparent-bg {
+  position: relative;
+}
+.form-transparent-bg .main-form__content {
+  position: relative;
+  z-index: 2;
+}
+.phone-form {
+  display: flex;
+  gap: 20px;
+}
+.phone-form br {
+  display: none;
+}
+.phone-form-button {
+  border: none;
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 16x;
+  color: #000;
+  font-weight: 500;
+  padding: 0 45px;
+}
+.form-transparent-bg .form-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+#project_slider .description h6 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  margin-top: 24px;
+}
+#project_slider .description p {
+  opacity: 0.7;
+}
 #types-of-screens {
   margin-top: 183px;
 }

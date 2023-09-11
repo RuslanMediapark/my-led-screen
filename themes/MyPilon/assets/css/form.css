@@ -20,7 +20,9 @@
 #main-form-three .main-form_title {
     max-width: 100%;
 }
-
+#main-form, #main-form-two, #main-form-three {
+    margin: 90px 0;
+}
 .main-form__wrapper {
     position: relative;
     height: 303px;

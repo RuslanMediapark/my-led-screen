@@ -4,7 +4,8 @@ $delivery_blocks = get_field('delivery_blocks');
 $delivery_background = get_field('delivery_background');
 ?>
 
-<section id="delivery-methods" style="background-image: url(<?= $delivery_background['url'] ?? '' ?>)">
+<section id="delivery-methods">
+<img class="delivery-bg" src="<? bloginfo('template_url'); ?>/assets/images/bg-items/delivery-bg.png" alt="">
     <div class="container">
         <?php if (!empty($delivery_title)): ?>
             <h2 class="delivery-methods__title">

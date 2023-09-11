@@ -6,6 +6,8 @@ $how_work_blocks = get_field('how_work_blocks');
 ?>
 
 <section id="how-work">
+    <img class="item-three" src="<? bloginfo('template_url'); ?>/assets/images/bg-items/item-three.png" alt="">
+
     <div class="container">
         <div class="how-work__wrapper">
             <div class="left">
