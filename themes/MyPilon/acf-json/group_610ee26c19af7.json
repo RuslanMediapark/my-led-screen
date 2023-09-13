@@ -3,22 +3,6 @@
     "title": "Глобальные настройки",
     "fields": [
         {
-            "key": "field_61177e0e07d22",
-            "label": "Футер",
-            "name": "",
-            "type": "tab",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "placement": "top",
-            "endpoint": 0
-        },
-        {
             "key": "field_610ee29820313",
             "label": "Номер телефона",
             "name": "phone",
@@ -53,7 +37,7 @@
             "collapsed": "",
             "min": 0,
             "max": 0,
-            "layout": "block",
+            "layout": "table",
             "button_label": "",
             "sub_fields": [
                 {
@@ -65,15 +49,20 @@
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
-                        "width": "30",
+                        "width": "20",
                         "class": "",
                         "id": ""
                     },
+                    "show_in_rest": 0,
+                    "edit_in_rest": 0,
                     "choices": {
                         "inst": "Инстаграм",
                         "telegram": "Телеграм",
                         "wa": "WhatsApp",
-                        "tel": "Телефон"
+                        "tel": "Телефон",
+                        "vk": "Вконтакте",
+                        "fb": "Facebook",
+                        "email": "Email"
                     },
                     "default_value": false,
                     "allow_null": 0,
@@ -85,14 +74,14 @@
                 },
                 {
                     "key": "field_610ee38220316",
-                    "label": "НомерСсылка",
+                    "label": "Номер\\Ссылка",
                     "name": "link",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
-                        "width": "70",
+                        "width": "80",
                         "class": "",
                         "id": ""
                     },
@@ -120,7 +109,7 @@
             "collapsed": "",
             "min": 0,
             "max": 0,
-            "layout": "block",
+            "layout": "table",
             "button_label": "",
             "sub_fields": [
                 {
@@ -132,7 +121,7 @@
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
-                        "width": "30",
+                        "width": "20",
                         "class": "",
                         "id": ""
                     },
@@ -157,7 +146,7 @@
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
-                        "width": "70",
+                        "width": "80",
                         "class": "",
                         "id": ""
                     },
@@ -187,74 +176,6 @@
             "toolbar": "basic",
             "media_upload": 0,
             "delay": 0
-        },
-        {
-            "key": "field_61177e3820673",
-            "label": "Всплывающие окно",
-            "name": "",
-            "type": "tab",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "placement": "top",
-            "endpoint": 0
-        },
-        {
-            "key": "field_61177d84b109a",
-            "label": "Заголовк",
-            "name": "modal_title",
-            "type": "text",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
-        },
-        {
-            "key": "field_61177d91b109b",
-            "label": "Текст",
-            "name": "modal_text",
-            "type": "textarea",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": "",
-            "maxlength": "",
-            "rows": "",
-            "new_lines": ""
-        },
-        {
-            "key": "field_61177da7b109c",
-            "label": "Форма",
-            "name": "modal_contact_form",
-            "type": "acf_cf7",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            }
         }
     ],
     "location": [
@@ -274,5 +195,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1628929805
+    "modified": 1694546446
 }

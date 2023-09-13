@@ -1,310 +1,336 @@
 #main-form .main-form__wrapper {
-    background: linear-gradient(90deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%);
+  background: linear-gradient(90deg, #5271c4 0%, #b19fff 48%, #eca1fe 100%);
 }
 
 #main-form-two .main-form__wrapper {
-    background: linear-gradient(267.57deg, #5271C4 -5.1%, #B19FFF 60.35%, #ECA1FE 131.25%);
+  background: linear-gradient(
+    267.57deg,
+    #5271c4 -5.1%,
+    #b19fff 60.35%,
+    #eca1fe 131.25%
+  );
 }
 
 #main-form-three .main-form__wrapper {
-    background: linear-gradient(92.59deg, #470C85 -7.11%, #5451A7 53.22%, #2A0458 118.57%);
-    height: 240px;
+  background: linear-gradient(
+    92.59deg,
+    #470c85 -7.11%,
+    #5451a7 53.22%,
+    #2a0458 118.57%
+  );
+  height: 240px;
 }
 
 #main-form-three .main-form__content {
-    max-width: 100%;
-    align-items: center;
-    padding: 58px;
+  max-width: 100%;
+  align-items: center;
+  padding: 58px;
 }
 
 #main-form-three .main-form_title {
-    max-width: 100%;
+  max-width: 100%;
 }
-#main-form, #main-form-two, #main-form-three {
-    margin: 90px 0;
+#main-form,
+#main-form-two,
+#main-form-three {
+  margin: 90px 0;
 }
 .main-form__wrapper {
-    position: relative;
-    height: 303px;
-    border-radius: 30px;
+  position: relative;
+  height: 303px;
+  border-radius: 30px;
 }
 
 .main-form__content {
-    max-width: 613px;
-    display: flex;
-    flex-direction: column;
-    padding: 45px 70px;
+  max-width: 613px;
+  display: flex;
+  flex-direction: column;
+  padding: 45px 70px;
 }
 
 .main-form-image {
-    position: absolute;
-    top: -51px;
-    right: 142px;
+  position: absolute;
+  top: -51px;
+  right: 142px;
 }
 
 .main-form_title {
-    font-size: 35px;
-    font-weight: 700;
-    line-height: 42px;
-    margin-bottom: 30px;
-    max-width: 466px;
-    color: #FFFFFF;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 42px;
+  margin-bottom: 30px;
+  max-width: 466px;
+  color: #ffffff;
 }
 
 .main-form_subtitle {
-    font-family: Mulish;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20px;
-    margin-bottom: 30px;
-    color: #FFFFFFB2;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 30px;
+  color: #ffffffb2;
 }
 
 .cf7-form {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 
-input:focus-visible, textarea:focus-visible {
-    outline: unset;
+input:focus-visible,
+textarea:focus-visible {
+  outline: unset;
 }
 
-input[type="text"], input[type="tel"], input[type="email"], textarea {
-    padding: 15px;
-    border-radius: 10px;
-    width: 220px;
-    border: 1px solid #FFFFFF33;
-    font-family: Mulish;
-    font-size: 16px;
-    line-height: 20px;
-    color: #FFFFFF;
-    background: transparent;
-    box-sizing: border-box;
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+  padding: 15px;
+  border-radius: 10px;
+  width: 220px;
+  border: 1px solid #ffffff33;
+  font-family: Mulish;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background: transparent;
+  box-sizing: border-box;
 }
 
-input[type="text"]::placeholder, input[type="tel"]::placeholder, input[type="email"]::placeholder, textarea::placeholder {
-    color: #FFFFFF4D;
+input[type="text"]::placeholder,
+input[type="tel"]::placeholder,
+input[type="email"]::placeholder,
+textarea::placeholder {
+  color: #ffffff4d;
 }
 
 .wpcf7 form.invalid .wpcf7-response-output,
 .wpcf7 form.unaccepted .wpcf7-response-output {
-    display: none;
+  display: none;
 }
 
 .cf7-form p {
-    display: none;
+  display: none;
 }
 
 .cf7-form input[type="submit"] {
-    padding: 15px;
-    border-radius: 10px;
-    background: #FFFFFF;
-    border: unset;
-    cursor: pointer;
-    width: 220px;
-    font-family: Mulish;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20px;
-    text-align: center;
-    box-sizing: border-box;
+  padding: 15px;
+  border-radius: 10px;
+  background: #ffffff;
+  border: unset;
+  cursor: pointer;
+  width: 220px;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  box-sizing: border-box;
 }
 
 .wpcf7-not-valid-tip {
-    font-size: 13px !important;
+  font-size: 13px !important;
 }
 
 .ajax-loader {
-    display: none !important;
+  display: none !important;
 }
-
+#main-form-question {
+  margin: 90px 0;
+}
 .main-form-question__wrapper {
-    display: grid;
-    grid-template-columns: 554px 1fr;
-    gap: 82px;
+  display: grid;
+  grid-template-columns: 554px 1fr;
+  gap: 82px;
 }
 
-.question-headline, .modal-block-title {
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 48px;
-    margin-bottom: 40px;
-    color: #FFFFFF;
+.question-headline,
+.modal-block-title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 40px;
+  color: #ffffff;
 }
 
-.question-sub-title, .modal-block-text {
-    font-family: Mulish;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 23px;
-    margin-bottom: 54px;
-    color: #FFFFFFB2;
+.question-sub-title,
+.modal-block-text {
+  font-family: Mulish;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  margin-bottom: 54px;
+  color: #ffffffb2;
 }
 
 .form-data {
-    display: flex;
-    gap: 30px;
+  display: flex;
+  gap: 30px;
 }
 
 #main-form-question input {
-    width: 100%;
-    max-width: 220px;
-    max-height: 111px;
+  width: 100%;
+  max-width: 220px;
+  max-height: 111px;
 }
 
 #main-form-question textarea {
-    width: 100%;
-    max-width: 100%;
-    margin-top: 20px;
-    max-height: 111px;
+  width: 100%;
+  max-width: 100%;
+  margin-top: 20px;
+  max-height: 111px;
 }
 
 #main-form-question br {
-    display: none;
+  display: none;
 }
 
 #main-form-question input[type="submit"] {
-    cursor: pointer;
-    justify-content: center;
+  cursor: pointer;
+  justify-content: center;
 }
 
 #main-form-question .left img {
-    width: 100%
+  width: 100%;
 }
 
 .wpcf7-not-valid {
-    border: 1px solid #e74343 !important;
+  border: 1px solid #e74343 !important;
 }
 
 .wpcf7-not-valid-tip {
-    display: none !important;
+  display: none !important;
 }
 
 .modal-form-block {
-    background-color: #2a164f;
-    max-width: 550px;
-    width: 100%;
+  background-color: #2a164f;
+  max-width: 550px;
+  width: 100%;
 }
 
 .modal-block-title {
-    text-align: center;
-    margin-bottom: 24px;
+  text-align: center;
+  margin-bottom: 24px;
 }
 
 .modal-block-text {
-    text-align: center;
-    margin-bottom: 24px;
+  text-align: center;
+  margin-bottom: 24px;
 }
 
 .modal-form-block .cf7-form {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .modal-form-block input {
-    max-width: 100%;
-    width: 100% !important;
+  max-width: 100%;
+  width: 100% !important;
 }
 
 .carousel__button.is-close {
-    color: #fff !important;
-    margin-top: 8px !important;
-    margin-right: 8px !important;
-
+  color: #fff !important;
+  margin-top: 8px !important;
+  margin-right: 8px !important;
 }
 
 @media (max-width: 1199px) {
-    .main-form-image {
-        display: none;
-    }
+  .main-form-image {
+    display: none;
+  }
 
-    .main-form__content {
-        max-width: 100%;
-    }
+  .main-form__content {
+    max-width: 100%;
+  }
 
-    .main-form_title {
-        max-width: 100%;
-    }
+  .main-form_title {
+    max-width: 100%;
+  }
 
-    .main-form__wrapper {
-        height: max-content !important;
-    }
+  .main-form__wrapper {
+    height: max-content !important;
+  }
 
-    .main-form-question__wrapper {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 24px;
-    }
+  .main-form-question__wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
 
-    #main-form-question .left {
-        display: flex;
-        justify-content: center;
-    }
+  #main-form-question .left {
+    display: flex;
+    justify-content: center;
+  }
 
-    .question-headline {
-        text-align: center;
-        margin-bottom: 16px;
-    }
+  .question-headline {
+    text-align: center;
+    margin-bottom: 16px;
+  }
 
-    .question-sub-title {
-        text-align: center;
-        margin-bottom: 16px;
-    }
+  .question-sub-title {
+    text-align: center;
+    margin-bottom: 16px;
+  }
 
-    #main-form-question input {
-        max-width: 100%;
-    }
+  #main-form-question input {
+    max-width: 100%;
+  }
 
-    #main-form-question input[type="submit"] {
-        max-width: 250px;
-        margin: 0 auto;
-    }
+  #main-form-question input[type="submit"] {
+    max-width: 250px;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 639px) {
-    .main-form_title {
-        font-size: 22px;
-        line-height: 32px;
-        text-align: center;
-        margin-bottom: 15px;
-    }
+  .main-form_title {
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
 
-    .main-form_subtitle {
-        text-align: center;
-        margin-bottom: 15px;
-    }
+  .main-form_subtitle {
+    text-align: center;
+    margin-bottom: 15px;
+  }
 
-    .main-form__content {
-        padding: 20px 15px !important;
-    }
+  .main-form__content {
+    padding: 20px 15px !important;
+  }
 
-    .cf7-form input[type="submit"] {
-        width: 100%;
-    }
+  .cf7-form input[type="submit"] {
+    width: 100%;
+  }
 
-    input[type="text"], input[type="tel"], textarea {
-        width: 100%;
-    }
+  input[type="text"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+  }
 
-    .cf7-form {
-        flex-direction: column;
-    }
+  .cf7-form {
+    flex-direction: column;
+  }
 
-    .question-headline, .modal-block-title {
-        font-size: 22px;
-        line-height: 32px;
-    }
+  .question-headline,
+  .modal-block-title {
+    font-size: 22px;
+    line-height: 32px;
+  }
 
-    .question-sub-title, .modal-block-text {
-        font-size: 16px;
-        font-weight: 400;
-    }
+  .question-sub-title,
+  .modal-block-text {
+    font-size: 16px;
+    font-weight: 400;
+  }
 
-    .form-data {
-        flex-direction: column;
-        gap: 12px;
-    }
+  .form-data {
+    flex-direction: column;
+    gap: 12px;
+  }
 
-    #main-form-question input[type="submit"] {
-        max-width: 100%;
-    }
+  #main-form-question input[type="submit"] {
+    max-width: 100%;
+  }
 }

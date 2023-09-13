@@ -16,7 +16,7 @@ include 'templates/contact-form_three.php';
 include 'templates/how-work.php';
 include 'templates/delivery-methods.php';
 // include 'templates/four-stages.php';
-include 'templates/product-quality.php';
+// include 'templates/product-quality.php';
 
 include 'templates/about-company.php';
 include 'templates/our-partners.php';

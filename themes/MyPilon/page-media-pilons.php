@@ -3,10 +3,8 @@ get_header();
 ?>
 
 <?
-$pageColors = get_field('page_colors', get_the_ID());
-$colorOne = $pageColors['color_one'];
-$colorTwo = $pageColors['color_two'];
 
+include 'templates/main-slider.php';
 include 'templates/media-pylons/main-module.php';
 include 'templates/contact-form.php';
 include 'templates/indoor-and-street/mediapolis-is.php';
