@@ -23,7 +23,10 @@ $main_module_dignity = get_field('main_module_dignity');
                             </div>
                       <?php endif; ?>
                       <?php if (!empty($item['title'])) : ?>
-                            <div class="main-module__block-left-dignity-title"><?= $item['title'] ?? '' ?></div>
+                            <div class="main-module__block-left-dignity-title">
+                                <p><?= $item['title'] ?? '' ?></p>
+                                <p><?= $item['description'] ?? ''?></p>
+                            </div>
                       <?php endif; ?>
                       </div>
                     <?php endforeach; ?>
