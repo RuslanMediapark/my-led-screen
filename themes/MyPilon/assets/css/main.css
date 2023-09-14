@@ -797,6 +797,17 @@ div[role="button"]:hover path {
   height: 50px;
 }
 
+#solution_slider .swiper-button-prev,
+#solution_slider .swiper-container-rtl .swiper-button-next {
+  left: 0;
+  background-color: #A24FFF;
+}
+
+#solution_slider .swiper-button-next,
+#solution_slider .swiper-container-rtl .swiper-button-prev {
+  right: 0;
+}
+
 #project_slider .swiper-button-next svg path, #project_slider .swiper-button-prev svg path{
   stroke: #fff;
 }
@@ -1267,11 +1278,23 @@ footer .contact-phones {
 }
 
 #mediapolis_is {
-  background-color: #f7f7f7;
+  background: linear-gradient(92.59deg, #470C85 -7.11%, #5451A7 53.22%, #2A0458 118.57%);
   padding: 91px 0 62px;
   margin: 101px 0 119px;
+  position: relative;
 }
-
+.transparent-two {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+#mediapolis_is .container {
+  position: relative;
+  z-index: 2;
+}
 .mediapolis_is__block-first-row-dignity,
 .mediapolis_is__block-second-row-dignity {
   display: flex;
@@ -1279,12 +1302,12 @@ footer .contact-phones {
 }
 
 .mediapolis_is__block-title {
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 127.5%;
-  letter-spacing: 0.02em;
-  max-width: 245px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  max-width: 197px;
   margin-bottom: 5px;
+  color: #fff;
 }
 
 .mediapolis_is__main-title {
@@ -1298,6 +1321,10 @@ footer .contact-phones {
 
 .mediapolis_is__block.column .mediapolis_is__main-title {
   margin-bottom: 0;
+  color: #fff;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
 }
 
 .mediapolis_is__block-subtitle {
@@ -1685,33 +1712,51 @@ footer .contact-phones {
 .additional-options__blocks {
   display: flex;
   justify-content: space-between;
-  margin-top: 34px;
+  gap: 30px;
 }
 
 #additional-options {
-  background-color: #f7f7f7;
-  padding: 117px 0 116px 0;
-  margin-bottom: 103px;
+  margin: 90px 0;
 }
 
+.additional-options__block {
+  border: 1px solid #443972;
+  padding: 30px;
+  background-color: rgb(68 57 114 / 40%);
+  border-radius: 15px;
+  color: #fff;
+  width: 100%;
+}
 .additional-options__title {
-  font-weight: 600;
-  font-size: 34px;
-  line-height: 41px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
   text-align: center;
-  letter-spacing: 0.025em;
+  margin-bottom: 40px;
+  color: #fff;
 }
 
 .additional-options__block-description_image {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 18px;
-  line-height: 127.5%;
-  letter-spacing: 0.02em;
-  margin-top: 60px;
+  line-height: 22px;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 10px;
 }
-
+.additional-options__block-image {
+  text-align: center;
+}
+.additional-options__block-description {
+  text-align: center;
+  font-size: 14px;
+  line-height: 18px;
+  opacity: .7;
+  font-weight: 400;
+  max-width: 262px;
+}
 .additional-options__block-image img {
-  height: 270px;
+  height: 200px;
 }
 
 .main-module__block-left-title {
@@ -1722,7 +1767,7 @@ footer .contact-phones {
 
 .main-module__block-left-subtitle {
   font-size: 18px;
-  line-height: normal;
+  line-height: 23px;
   color: #fff;
   opacity: .7;
   font-weight: 500;
@@ -1736,15 +1781,21 @@ footer .contact-phones {
   color: #fff;
 }
 
+.main-module__block #how-work-callback {
+  grid-column-start: 1;
+    grid-row-start: 20;
+    width: 220px;
+    height: 50px;
+}
 .main-module__block-left-dignity {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 28px;
-  margin-top: 62px;
+  grid-template-columns: 1fr  ;
+  gap: 20px;
 }
 
 .main-module__block-item {
   display: flex;
+  gap: 14px;
 }
 
 .main-module__block-item svg {
@@ -1756,9 +1807,17 @@ footer .contact-phones {
   font-size: 18px;
   line-height: 127.5%;
   letter-spacing: 0.02em;
-  max-width: 208px;
+  max-width: 537px;
 }
-
+.main-module__block-left-dignity-title p:nth-child(1) {
+  margin-bottom: 14px;
+}
+.main-module__block-left-dignity-title p:nth-child(2) {
+  opacity: .7;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
 #main-module {
   margin-bottom: 67px;
 }
@@ -2032,9 +2091,9 @@ input[type="range"]::-webkit-slider-thumb {
 
 .main-module__block-left-subtitle {
   grid-column-start: 1;
-  grid-column-end: 8;
+  grid-column-end: 6;
   grid-row-start: 4;
-  grid-row-end: 10;
+  grid-row-end: 8;
 }
 
 .main-module__block-left-dignity {

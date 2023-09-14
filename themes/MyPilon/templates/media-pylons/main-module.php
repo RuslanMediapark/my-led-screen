@@ -32,7 +32,9 @@ $main_module_dignity = get_field('main_module_dignity');
                     <?php endforeach; ?>
                   </div>
               <?php endif; ?>
-
+              <button class="btn" id="how-work-callback" data-fancybox="dialog" data-src="#dialog-content">
+                    Оставить заявку
+                </button>
               <div class="main-module__block-right">
                 <div class="main-module__block-right-images">
                 </div>

@@ -21,7 +21,7 @@ $additional_options_option = get_field('additional_options_option');
                       <div class="additional-options__block-description_image">
                         <?= $option['description_image'] ?? '' ?>
                       </div>
-                      <p><?= $option['option_description'] ?? '' ?></p>
+                      <p class="additional-options__block-description"><?= $option['option_description'] ?? '' ?></p>
                   <?php endif; ?>
                 </div>
             <?php endforeach; ?>

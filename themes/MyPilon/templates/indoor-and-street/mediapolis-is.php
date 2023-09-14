@@ -7,6 +7,7 @@ $mediapolis_display = get_field('mediapolis_display');
 ?>
 
 <section id="mediapolis_is">
+    <img class="transparent-two" src="<? bloginfo('template_url'); ?>/assets/images/bg-items/transparent-two.png" />
     <div class="container">
         <div class="mediapolis_is__block <?= $mediapolis_display ?>">
             <?php if (!empty($mediapolis_title)) : ?>
