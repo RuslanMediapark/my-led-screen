@@ -1,7 +1,7 @@
 <?php
-$delivery_title = get_field('delivery_title');
-$delivery_blocks = get_field('delivery_blocks');
-$delivery_background = get_field('delivery_background');
+$delivery_title = get_field('delivery_title', 7);
+$delivery_blocks = get_field('delivery_blocks', 7);
+$delivery_background = get_field('delivery_background', 7);
 ?>
 
 <section id="delivery-methods">

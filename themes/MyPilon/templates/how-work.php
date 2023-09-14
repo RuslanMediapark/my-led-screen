@@ -1,8 +1,8 @@
 <?php
-$how_work_image = get_field('how_work_image');
-$how_work_title = get_field('how_work_title');
-$how_work_subtitle = get_field('how_work_subtitle');
-$how_work_blocks = get_field('how_work_blocks');
+$how_work_image = get_field('how_work_image', 7);
+$how_work_title = get_field('how_work_title', 7);
+$how_work_subtitle = get_field('how_work_subtitle', 7);
+$how_work_blocks = get_field('how_work_blocks', 7);
 ?>
 
 <section id="how-work">

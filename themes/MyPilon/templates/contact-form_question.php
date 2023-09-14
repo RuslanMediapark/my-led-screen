@@ -1,10 +1,11 @@
 <?php
-$title = get_field('form_title_question');
-$image = get_field('form_image_question');
-$sub_title = get_field('form_sub_title_question');
-$form = get_field('form_question');
+$title = get_field('form_title_question', 7);
+$image = get_field('form_image_question', 7);
+$sub_title = get_field('form_sub_title_question', 7);
+$form = get_field('form_question', 7);
 ?>
 <section id="main-form-question">
+<img class="delivery-bg" src="<? bloginfo('template_url'); ?>/assets/images/bg-items/transparent-two.png" alt="">
     <div class="container">
         <div class="main-form-question__wrapper">
             <div class="left">

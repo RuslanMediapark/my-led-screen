@@ -1,6 +1,6 @@
 <?php
-$about_title = get_field('about_title');
-$about_blocks = get_field('about_block');
+$about_title = get_field('about_title', 7);
+$about_blocks = get_field('about_block', 7);
 ?>
 
 <section id="why-me">

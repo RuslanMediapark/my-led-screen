@@ -1,8 +1,8 @@
 <?php
-$image = get_field('form_image_2');
-$title = get_field('form_title_2');
-$sub_title = get_field('form_sub_title_2');
-$form = get_field('form_2');
+$image = get_field('form_image_2', 7);
+$title = get_field('form_title_2', 7);
+$sub_title = get_field('form_sub_title_2', 7);
+$form = get_field('form_2', 7);
 ?>
 <section id="main-form-two" class="form-transparent-bg">
     <div class="container">

@@ -221,6 +221,7 @@ body {
   transition: all 0.3s ease-in-out;
   background-image: linear-gradient(94.27deg, #b721ff 0%, #21d4fd 100%);
   position: relative;
+  border: none;
   z-index: 1;
 }
 .btn:hover {
@@ -1279,8 +1280,8 @@ footer .contact-phones {
 
 #mediapolis_is {
   background: linear-gradient(92.59deg, #470C85 -7.11%, #5451A7 53.22%, #2A0458 118.57%);
-  padding: 91px 0 62px;
-  margin: 101px 0 119px;
+  padding: 90px 0 62px;
+  margin: 90px 0;
   position: relative;
 }
 .transparent-two {
@@ -1298,14 +1299,20 @@ footer .contact-phones {
 .mediapolis_is__block-first-row-dignity,
 .mediapolis_is__block-second-row-dignity {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 60px;
+  justify-content: center;
 }
 
+.mediapolis_is__block-first-row-dignity {
+  place-items: flex-end;
+}
 .mediapolis_is__block-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   max-width: 197px;
+  width: 100%;
   margin-bottom: 5px;
   color: #fff;
 }
@@ -1313,10 +1320,11 @@ footer .contact-phones {
 .mediapolis_is__main-title {
   text-align: center;
   letter-spacing: 0.025em;
-  font-weight: 600;
-  font-size: 34px;
-  line-height: 41px;
-  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 50px;
+  color: #fff;
 }
 
 .mediapolis_is__block.column .mediapolis_is__main-title {
@@ -1331,9 +1339,9 @@ footer .contact-phones {
   font-weight: 500;
   font-size: 14px;
   line-height: 127.5%;
-  letter-spacing: 0.02em;
-  color: rgba(24, 12, 0, 0.5);
   max-width: 227px;
+  color: #fff;
+  opacity: .7;
 }
 
 .mediapolis_is__block-image {
@@ -1342,6 +1350,7 @@ footer .contact-phones {
 
 .mediapolis_is__block-item {
   display: flex;
+  width: 250px;
 }
 
 .mediapolis_is__block-description {
@@ -1687,27 +1696,6 @@ footer .contact-phones {
   width: 100%;
 }
 
-.mediapolis_is__block.column .mediapolis_is__block_content {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.column .mediapolis_is__block-first-row-dignity,
-.column .mediapolis_is__block-second-row-dignity {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.column .mediapolis_is__block-first-row-dignity > div,
-.column .mediapolis_is__block-second-row-dignity > div {
-  margin-bottom: 88px;
-}
-
-.column .mediapolis_is__block-first-row-dignity > div:nth-last-child(1),
-.column .mediapolis_is__block-second-row-dignity > div:nth-last-child(1) {
-  margin-bottom: 0;
-}
 
 .additional-options__blocks {
   display: flex;
@@ -2151,6 +2139,70 @@ input[type="range"]::-webkit-slider-thumb {
 }
 #lead-data-form .form-data {
   padding-top: 0;
+}
+
+#other-products {
+  margin: 90px 0;
+}
+#other-products h2 {
+  text-align: center;
+}
+
+.other-products__blocks {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.other-products__info {
+  max-width: 323px;
+  margin: 0 auto;
+  text-align: center;
+}
+.other-products__blocks > div:nth-child(1) {
+  justify-self: flex-end;
+}
+
+.other-products__blocks > div:nth-child(2) {
+  justify-self: flex-start;
+}
+.other-products__block-image img {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.other-products__block-title {
+  color: #fff;
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+}
+.other-products__block-text {
+  opacity: .7;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 25px;
+}
+.other-products__block-link {
+  border-radius: 30px;
+  width: 220px;
+  height: 50px;
+  margin: 0 auto;
+  background-color: rgb(68 57 114 / 40%);
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mediapolis_is__block_content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
 }
 @media (max-width: 1549px) {
   .dashed-line {

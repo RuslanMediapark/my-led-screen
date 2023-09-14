@@ -137,7 +137,13 @@ textarea::placeholder {
   display: none !important;
 }
 #main-form-question {
-  margin: 90px 0;
+  margin: 90px 0 0;
+  background: linear-gradient(92.59deg, #5451A7 -7.11%, #2A0458 53.22%, #5451A7 118.57%);
+  padding: 88px 0;
+}
+#main-form-question .container {
+  position: relative;
+  z-index: 2;
 }
 .main-form-question__wrapper {
   display: grid;
