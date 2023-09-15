@@ -22,6 +22,27 @@
             "maxlength": ""
         },
         {
+            "key": "field_65048b21e4f30",
+            "label": "Описание",
+            "name": "pixel_step_description",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "show_in_rest": 0,
+            "edit_in_rest": 0,
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": 4,
+            "new_lines": ""
+        },
+        {
             "key": "field_610f9c982902c",
             "label": "Картинка",
             "name": "pixel_step_image",
@@ -77,5 +98,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1628533864
+    "modified": 1694796599
 }

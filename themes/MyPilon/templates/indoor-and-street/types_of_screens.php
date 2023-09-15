@@ -6,7 +6,7 @@ $types_of_screens_views = get_field('types_of_screens_views');
 <section id="types-of-screens">
     <div class="container">
       <?php if (!empty($types_of_screens_title)) : ?>
-          <h2 class="types-of-screens__title"><?= $types_of_screens_title ?? '' ?></h2>
+          <h2 class="section-title"><?= $types_of_screens_title ?? '' ?></h2>
       <?php endif; ?>
       <?php if (!empty($types_of_screens_views)): ?>
           <div class="types-of-screens__blocks">

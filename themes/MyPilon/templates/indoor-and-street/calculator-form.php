@@ -13,6 +13,9 @@ $select_install_type = get_field('select_install_type');
     <div class="container">
         <h2 class="calulator_title"><?=$calc_title?></h2>
         <div class="calulator_content">
+        <div class="calculator_image">
+                <img src="<?=$calc_image;?>" alt="calculator">
+            </div>
             <form action="">
                 <h3>Конфигуратор экрана</h3>
                 <div class="form-control">
@@ -45,7 +48,7 @@ $select_install_type = get_field('select_install_type');
                     <output class="height-value">10240</output>
                 </div>
 
-                <div class="form-control full">
+                <div class="form-control">
                     <h4 for="screen_type">Другой размер</h4>
                     <input type="text" id="other" true-name="other-size" placeholder="ШxВ (мм)">
                 </div>
@@ -74,7 +77,7 @@ $select_install_type = get_field('select_install_type');
                         <? endforeach;?>
                     </select>
                 </div>
-                <div class="form-control">
+                <div class="form-control full">
                     <h4 for="screen_type">Доп. параметры</h4>
                     <div class="checkbox-group">
 
@@ -90,9 +93,7 @@ $select_install_type = get_field('select_install_type');
                 <div class="btn full calc-submit" data-fancybox data-src="#lead-data-form">РАССЧИТАТЬ</div>
 
             </form>
-            <div class="calculator_image">
-                <img src="<?=$calc_image;?>" alt="calculator">
-            </div>
+
         </div>
         <div class="hidden-form">
                 <?= do_shortcode('[contact-form-7 id="619" title="Калькулятор"]')?>
