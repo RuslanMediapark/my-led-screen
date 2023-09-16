@@ -2982,7 +2982,7 @@ input[type="range"]::-webkit-slider-thumb {
     margin-bottom: 40px;
   }
 
-  #led-screen-type, #why-me, #main-form, #project_slider, #main-form-two, #solution_slider, #main-form-three, #how-work, #delivery-methods, #about_company, #our_partners, #other-products, #mediapolis_is {
+  #led-screen-type, #why-me, #main-form, #project_slider, #main-form-two, #solution_slider, #main-form-three, #how-work, #delivery-methods, #about_company, #our_partners, #other-products, #mediapolis_is, #calculator {
     margin: 40px 0;
   }
 
@@ -3230,7 +3230,7 @@ input[type="range"]::-webkit-slider-thumb {
   }
 
   #calculator {
-    padding-top: 80px;
+    padding: 0;
   }
 
   body > svg {
