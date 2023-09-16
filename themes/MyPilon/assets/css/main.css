@@ -2977,12 +2977,7 @@ input[type="range"]::-webkit-slider-thumb {
     margin-bottom: 40px;
   }
 
-  #mediapolis_is {
-    margin-top: 40px;
-    padding: 20px 0;
-  }
-
-  #led-screen-type, #why-me, #main-form, #project_slider, #main-form-two, #solution_slider, #main-form-three, #how-work, #delivery-methods, #about_company, #our_partners, #other-products {
+  #led-screen-type, #why-me, #main-form, #project_slider, #main-form-two, #solution_slider, #main-form-three, #how-work, #delivery-methods, #about_company, #our_partners, #other-products, #mediapolis_is {
     margin: 40px 0;
   }
 
