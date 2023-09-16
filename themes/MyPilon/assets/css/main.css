@@ -2934,6 +2934,10 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 @media (max-width: 849px) {
+  .contact-phones {
+    margin-top: 30px;
+  }
+
   .header-content {
     max-width: calc(75px + 50%);
   }
