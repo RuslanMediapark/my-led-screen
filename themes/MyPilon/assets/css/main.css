@@ -1627,7 +1627,8 @@ footer .contact-phones {
 
 .types-of-screens__blocks {
   margin-top: 40px;
-  display: grid;
+  display: flex;
+  justify-content: space-between;
   gap: 30px;
 }
 
@@ -2488,6 +2489,7 @@ input[type="range"]::-webkit-slider-thumb {
   }
 
   .types-of-screens__blocks {
+    display: grid;
     grid-template-columns: repeat(2, 1fr) !important;
     gap: 20px;
   }
