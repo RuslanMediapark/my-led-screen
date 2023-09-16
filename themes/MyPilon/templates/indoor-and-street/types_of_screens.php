@@ -9,7 +9,7 @@ $types_of_screens_views = get_field('types_of_screens_views');
           <h2 class="section-title"><?= $types_of_screens_title ?? '' ?></h2>
       <?php endif; ?>
       <?php if (!empty($types_of_screens_views)): ?>
-          <div class="types-of-screens__blocks">
+          <div class="types-of-screens__blocks" style="grid-template-columns: repeat(<?= count($types_of_screens_views) ?>, 1fr)">
             <?php foreach ($types_of_screens_views as $view): ?>
               <div class="types-of-screens__block">
               <?php if (!empty($view['image'])) : ?>
