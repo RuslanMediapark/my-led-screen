@@ -43,10 +43,10 @@
             "maxlength": ""
         },
         {
-            "key": "field_610038c59784c",
-            "label": "Картинки",
-            "name": "hero_gallery",
-            "type": "gallery",
+            "key": "field_65059eae337eb",
+            "label": "Сылка на ютуб для видео",
+            "name": "hero_video_url",
+            "type": "url",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -55,25 +55,16 @@
                 "class": "",
                 "id": ""
             },
-            "return_format": "array",
-            "preview_size": "medium",
-            "insert": "append",
-            "library": "all",
-            "min": "",
-            "max": "",
-            "min_width": "",
-            "min_height": "",
-            "min_size": "",
-            "max_width": "",
-            "max_height": "",
-            "max_size": "",
-            "mime_types": ""
+            "show_in_rest": 0,
+            "edit_in_rest": 0,
+            "default_value": "",
+            "placeholder": ""
         },
         {
-            "key": "field_610038f89784d",
-            "label": "Достоинство",
-            "name": "hero_dignity",
-            "type": "repeater",
+            "key": "field_65059eae337eb",
+            "label": "Сылка на ютуб для видео",
+            "name": "hero_video_url",
+            "type": "url",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -82,56 +73,10 @@
                 "class": "",
                 "id": ""
             },
-            "collapsed": "",
-            "min": 0,
-            "max": 4,
-            "layout": "table",
-            "button_label": "",
-            "sub_fields": [
-                {
-                    "key": "field_610039809784e",
-                    "label": "Картинка",
-                    "name": "image",
-                    "type": "image",
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "return_format": "array",
-                    "preview_size": "medium",
-                    "library": "all",
-                    "min_width": "",
-                    "min_height": "",
-                    "min_size": "",
-                    "max_width": "",
-                    "max_height": "",
-                    "max_size": "",
-                    "mime_types": ""
-                },
-                {
-                    "key": "field_610039919784f",
-                    "label": "Заголовок",
-                    "name": "title",
-                    "type": "text",
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "maxlength": ""
-                }
-            ]
+            "show_in_rest": 0,
+            "edit_in_rest": 0,
+            "default_value": "",
+            "placeholder": ""
         }
     ],
     "location": [
@@ -172,5 +117,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1694548669
+    "modified": 1694867158
 }
