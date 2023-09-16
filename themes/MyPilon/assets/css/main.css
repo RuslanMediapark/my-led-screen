@@ -3005,6 +3005,16 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 @media (max-width: 639px) {
+  .copyright {
+    flex-direction: column;
+    padding: 8px 0;
+  }
+
+  .copyright-links {
+    flex-direction: column;
+    gap: 0;
+  }
+
   .mediapolis_is__block-first-row-dignity, .mediapolis_is__block-second-row-dignity {
     grid-template-columns: 1fr;
   }
