@@ -176,6 +176,64 @@
             "toolbar": "basic",
             "media_upload": 0,
             "delay": 0
+        },
+        {
+            "key": "field_6505bf0660e9e",
+            "label": "Заголовок формы",
+            "name": "modal_title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "show_in_rest": 0,
+            "edit_in_rest": 0,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_6505bf1760e9f",
+            "label": "Текст формы",
+            "name": "modal_text",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "show_in_rest": 0,
+            "edit_in_rest": 0,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_6505bf213a4d6",
+            "label": "Форма",
+            "name": "modal_contact_form",
+            "type": "acf_cf7",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "show_in_rest": 0,
+            "edit_in_rest": 0
         }
     ],
     "location": [
@@ -195,5 +253,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1694546446
+    "modified": 1694875436
 }
