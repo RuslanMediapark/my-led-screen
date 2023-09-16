@@ -41,6 +41,27 @@
             "maxlength": ""
         },
         {
+            "key": "field_6505abecce595",
+            "label": "Заголовок достоинств",
+            "name": "main_module_dignity_title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "show_in_rest": 0,
+            "edit_in_rest": 0,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
             "key": "field_610fab3e6397f",
             "label": "Достоинство",
             "name": "main_module_dignity",
@@ -153,6 +174,59 @@
             "max_height": "",
             "max_size": "",
             "mime_types": ""
+        },
+        {
+            "key": "field_6505ab96ce594",
+            "label": "Для какой страницы",
+            "name": "main_module_mode_page",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "show_in_rest": 0,
+            "edit_in_rest": 0,
+            "choices": {
+                "indoor": "Для помещений",
+                "media-pilons": "Медиа пилоны"
+            },
+            "default_value": "media-pilons: Медиа пилоны",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_6505ad58ee165",
+            "label": "Картинка",
+            "name": "main_module_image",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "show_in_rest": 0,
+            "edit_in_rest": 0,
+            "return_format": "array",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
         }
     ],
     "location": [
@@ -161,6 +235,13 @@
                 "param": "page",
                 "operator": "==",
                 "value": "13"
+            }
+        ],
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "9"
             }
         ]
     ],
@@ -172,5 +253,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1694551308
+    "modified": 1694871018
 }
