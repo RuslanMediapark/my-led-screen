@@ -1628,7 +1628,7 @@ footer .contact-phones {
 .types-of-screens__blocks {
   margin-top: 40px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 30px;
 }
 
