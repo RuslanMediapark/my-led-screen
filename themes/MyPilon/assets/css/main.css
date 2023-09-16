@@ -2216,6 +2216,7 @@ input[type="range"]::-webkit-slider-thumb {
 .other-products__block-image img {
   border-radius: 10px;
   overflow: hidden;
+  width: 100%;
 }
 .other-products__block-title {
   color: #fff;
