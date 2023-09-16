@@ -11,7 +11,7 @@ $mediapolis_display = get_field('mediapolis_display');
     <div class="container">
         <div class="mediapolis_is__block">
             <?php if (!empty($mediapolis_title)) : ?>
-            <h2 class="mediapolis_is__main-title">
+            <h2 class="section-title">
                 <?= $mediapolis_title ?? '' ?>
             </h2>
             <?php endif; ?>

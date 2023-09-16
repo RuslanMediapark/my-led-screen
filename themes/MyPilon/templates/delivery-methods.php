@@ -8,7 +8,7 @@ $delivery_background = get_field('delivery_background', 7);
 <img class="delivery-bg" src="<? bloginfo('template_url'); ?>/assets/images/bg-items/delivery-bg.png" alt="">
     <div class="container">
         <?php if (!empty($delivery_title)): ?>
-            <h2 class="delivery-methods__title">
+            <h2 class="section-title">
                 <?= $delivery_title ?>
             </h2>
         <?php endif; ?>

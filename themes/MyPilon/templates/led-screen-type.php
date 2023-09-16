@@ -8,7 +8,7 @@ $views_blocks = get_field('views_block');
     <div class="container">
         <div class="led-screen-type-block">
           <?php if (!empty($views_blocks)) : ?>
-              <h2 class="led-screen-type-title"><?= $views_title ?? '' ?></h2>
+              <h2 class="section-title"><?= $views_title ?? '' ?></h2>
           <?php endif; ?>
         </div>
       <?php if (!empty($views_blocks)) : ?>

@@ -274,10 +274,10 @@ body {
 }
 
 .menu-headermenu-container ul a {
-  font-size: 14px;
+  font-size: 20px;
   letter-spacing: 0.095em;
-  color: #fff;
-  opacity: 0.5;
+  color: #000;
+  opacity: 0.9;
 }
 
 .menu-headermenu-container ul a:hover {
@@ -839,7 +839,6 @@ div[role="button"]:hover path {
 .solution_slider-block-title {
   font-weight: 700;
   font-size: 40px;
-  line-height: 23px;
   margin-bottom: 20px;
   color: #fff;
 }
@@ -1620,6 +1619,7 @@ footer .contact-phones {
   line-height: normal;
   text-align: center;
   color: #fff;
+  margin-bottom: 40px;
 }
 
 .types-of-screens__blocks {
@@ -2452,6 +2452,21 @@ input[type="range"]::-webkit-slider-thumb {
   .main-module__block-left-dignity {
     grid-row-start: 9;
   }
+  .types-of-screens__blocks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .types-of-screens__block {
+    width: 100%;
+  }
+  #main-form-question .left img {
+    max-width: 400px;
+  }
+  .hero__block-title {
+    font-size: 50px;
+    line-height: 65px;
+  }
 }
 
 @media (max-width: 959px) {
@@ -2820,6 +2835,43 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 @media (max-width: 849px) {
+  .why-me-block-items {
+    grid-template-columns: 1fr;
+  }
+  .other-products__blocks {
+    grid-template-columns: 1fr;
+  }
+  .other-products__blocks > div:nth-child(1) {
+    justify-self: center;
+  }
+  .other-products__blocks > div:nth-child(2) {
+    justify-self: center;
+  }
+  .display-device__content {
+    grid-template-columns: 1fr;
+  }
+  .display-device__image {
+    text-align: center;
+  }
+  .mediapolis_is__block_content {
+    grid-template-columns: 1fr;
+  }
+  .mediapolis_is__block-first-row-dignity,
+  .mediapolis_is__block-second-row-dignity {
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+  }
+  .mediapolis_is__block-item {
+    
+  }
+  .mediapolis_is__block-item {
+    width: auto;
+    margin: 0;
+    text-align: center;
+  }
+  .calulator_content {
+    grid-template-columns: 1fr;
+  }
   .main-module__block-left-subtitle {
     grid-row-start: 5;
     grid-column-end: 6;

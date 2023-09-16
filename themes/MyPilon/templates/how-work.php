@@ -14,7 +14,7 @@ $how_work_blocks = get_field('how_work_blocks', 7);
                 <img class="how-work__image" loading="lazy" src="<?= $how_work_image['url'] ?? '' ?>" alt="image">
             </div>
             <div class="right">
-                <h2 class="how-work__title"><?= $how_work_title ?? '' ?></h2>
+                <h2 class="section-title"><?= $how_work_title ?? '' ?></h2>
                 <p class="how-work__subtitle"><?= $how_work_subtitle ?? '' ?></p>
                 <?php if (!empty($how_work_blocks)) : ?>
                     <div class="how-work__blocks">

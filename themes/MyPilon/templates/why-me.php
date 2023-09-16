@@ -7,7 +7,7 @@ $about_blocks = get_field('about_block', 7);
     <div class="container">
         <div class="why-me-block">
           <?php if (!empty($about_title)) : ?>
-              <h2 class="why-me-title"><?= $about_title ?? '' ?></h2>
+              <h2 class="section-title"><?= $about_title ?? '' ?></h2>
           <?php endif; ?>
         </div>
       <?php if (!empty($about_blocks)) : ?>
