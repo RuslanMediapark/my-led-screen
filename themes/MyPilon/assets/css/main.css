@@ -571,6 +571,10 @@ header .logo {
   top: 5%;
 }
 
+input[type="submit"] {
+  cursor: pointer;
+}
+
 #cross-svg {
   position: absolute;
   right: 22px;
