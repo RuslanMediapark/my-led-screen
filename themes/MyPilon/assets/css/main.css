@@ -274,7 +274,7 @@ body {
 }
 
 .menu-headermenu-container ul a {
-  font-size: 20px;
+  font-size: 16px;
   letter-spacing: 0.095em;
   color: #FFFFFF80;
   opacity: 0.9;
@@ -289,7 +289,6 @@ body {
 }
 
 .contact-phones {
-  margin-top: 24px;
   display: flex;
   align-items: center;
   gap: 20px;
@@ -325,7 +324,7 @@ header .logo {
 /* hero start */
 
 #hero {
-  margin-bottom: 100px;
+  margin-bottom: 90px;
 }
 
 .hero__block-title {
@@ -1843,8 +1842,9 @@ footer .contact-phones {
   font-weight: 400;
   line-height: 18px;
 }
+
 #main-module {
-  margin-bottom: 67px;
+  margin: 75px;
 }
 
 .form-control {
