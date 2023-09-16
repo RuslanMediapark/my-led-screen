@@ -1,8 +1,9 @@
 <?php
 get_header();
-?>
 
-<?
+$mainPage = false;
+$pageName = get_the_title();
+include 'templates/bread-crumbs.php';
 include 'templates/main-slider.php';
 include 'templates/media-pylons/main-module.php';
 include 'templates/indoor-and-street/mediapolis-is.php';

@@ -42,7 +42,7 @@ $(document).ready(function () {
     });
 
     new Swiper(".solution-slider", {
-        slidesPerView: 3,
+        slidesPerView: 1,
         spaceBetween: 30,
         centeredSlides: true,
         loop: true,
@@ -58,6 +58,17 @@ $(document).ready(function () {
             clickable: true,
             el: ".swiper-pagination",
         },
+        breakpoints: {
+            639: {
+                slidesPerView: 1
+            },
+            959: {
+                slidesPerView: 2
+            },
+            1200: {
+                slidesPerView: 3
+            }
+        }
     });
 
     new Swiper(".our-partner-slider", {

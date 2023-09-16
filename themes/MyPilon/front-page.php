@@ -4,6 +4,8 @@ $pageId = 0;
 ?>
 <main>
 <?php
+$mainPage = true;
+include 'templates/bread-crumbs.php';
 include 'templates/main-slider.php';
 include 'templates/led-screen-type.php';
 include 'templates/contact-form.php';

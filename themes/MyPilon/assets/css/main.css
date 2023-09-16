@@ -276,7 +276,7 @@ body {
 .menu-headermenu-container ul a {
   font-size: 20px;
   letter-spacing: 0.095em;
-  color: #000;
+  color: #FFFFFF80;
   opacity: 0.9;
 }
 
@@ -325,7 +325,7 @@ header .logo {
 /* hero start */
 
 #hero {
-  margin-bottom: 104px;
+  margin-bottom: 100px;
 }
 
 .hero__block-title {
@@ -420,7 +420,7 @@ header .logo {
 /* led-screen-type start */
 
 #led-screen-type {
-  margin-top: 100px;
+  margin: 100px 0;
   position: relative;
 }
 
@@ -665,9 +665,9 @@ header .logo {
 }
 
 #why-me {
-  margin-top: 32px;
-  margin-bottom: 45px;
+  margin: 90px 0;
 }
+
 .why-me-title {
   font-weight: 700;
   font-size: 34px;
@@ -1560,9 +1560,13 @@ footer .contact-phones {
 }
 
 #project_slider {
-  margin-bottom: 137px;
-  margin-top: 90px;
+  margin: 90px 0;
 }
+
+#how-work {
+  margin: 90px 0;
+}
+
 #project_slider .description {
   color: #fff;
   text-align: center;
@@ -2275,6 +2279,24 @@ input[type="range"]::-webkit-slider-thumb {
   text-align: right;
 }
 
+.bread-crumbs {
+  margin: 20px 0 50px 0;
+}
+
+.bread-crumbs__content {
+  background: #FFFFFF0A;
+  padding: 12px 17px;
+  color: #FFFFFF99;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.bread-crumbs__content span {
+  color: #fff;
+}
+
 @media (max-width: 1549px) {
   .dashed-line {
     height: 21vw;
@@ -2442,6 +2464,10 @@ input[type="range"]::-webkit-slider-thumb {
   .delivery-methods__blocks {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .menu-headermenu-container ul a {
+    color: #000;
+  }
 }
 
 @media (max-width: 1115px) {
@@ -2470,6 +2496,34 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 @media (max-width: 959px) {
+  .section-title {
+    margin-bottom: 24px;
+  }
+
+  .led-screen-type-block-item {
+    margin-bottom: 0;
+  }
+
+  .led-screen-type-block-items {
+    grid-template-columns: 1fr;
+    margin-top: 0;
+  }
+
+  .led-screen-type-block-item-title {
+    margin: 12px 0;
+  }
+
+  .led-screen-type-block-item-image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .led-screen-type-block-item-image img {
+    object-fit: contain;
+    width: auto;
+    height: auto;
+  }
+
   .container {
     padding: 0 10px;
   }
@@ -2544,11 +2598,6 @@ input[type="range"]::-webkit-slider-thumb {
     margin: 0;
   }
 
-  .led-screen-type-block-item {
-    margin-right: 20px;
-    margin-bottom: 87px;
-  }
-
   .led-screen-type-block-items {
     flex-wrap: wrap;
     justify-content: center;
@@ -2602,10 +2651,6 @@ input[type="range"]::-webkit-slider-thumb {
 
   #led-screen-type {
     margin-top: 100px;
-  }
-
-  .led-screen-type-block-item-title {
-    margin-bottom: 29px;
   }
 
   .screen-placement__block-info-text {
@@ -2897,6 +2942,44 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 @media (max-width: 639px) {
+  .solution_slider-block {
+    margin-top: 0;
+  }
+
+  #hero .swiper-slide img {
+    height: 300px;
+  }
+
+  #hero {
+    margin-bottom: 40px;
+  }
+
+  #mediapolis_is {
+    margin-top: 40px;
+    padding: 20px 0;
+  }
+
+  #led-screen-type, #why-me, #main-form, #project_slider, #main-form-two, #solution_slider, #main-form-three, #how-work, #delivery-methods, #about_company, #our_partners {
+    margin: 40px 0;
+  }
+
+  #main-form-question {
+    margin-top: 40px;
+  }
+
+  .section-title {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  .phone-form {
+    flex-direction: column;
+  }
+
+  .phone-form input[type="submit"] {
+    height: 52px;
+  }
+
   .header-content .contact-phones {
     display: none;
   }
@@ -2940,10 +3023,6 @@ input[type="range"]::-webkit-slider-thumb {
 
   .form {
     padding: 38px 26px 15px 26px;
-  }
-
-  .led-screen-type-block-item {
-    margin-bottom: 74px;
   }
 
   .project_slider-block-title,
@@ -3179,6 +3258,10 @@ input[type="range"]::-webkit-slider-thumb {
   .main-module__block-left-title,
   .main-module__block-left-subtitle {
     text-align: center;
+  }
+
+  .bread-crumbs {
+    margin: 20px 0 20px 0;
   }
 }
 
