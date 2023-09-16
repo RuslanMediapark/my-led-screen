@@ -2496,6 +2496,30 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 @media (max-width: 959px) {
+  .mediapolis_is__block_content {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .mediapolis_is__block-image {
+    margin: 0;
+  }
+
+  .mediapolis_is__block-first-row-dignity, .mediapolis_is__block-second-row-dignity {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    place-items: unset;
+  }
+
+  .mediapolis_is__block-item {
+    align-items: center;
+  }
+
+  .mediapolis_is__block-title {
+    text-align: center;
+  }
+
   .section-title {
     margin-bottom: 24px;
   }
@@ -2864,16 +2888,6 @@ input[type="range"]::-webkit-slider-thumb {
     margin-left: auto;
   }
 
-  .column .mediapolis_is__block-first-row-dignity,
-  .column .mediapolis_is__block-second-row-dignity {
-    flex-direction: row;
-  }
-
-  .column .mediapolis_is__block-first-row-dignity > div,
-  .column .mediapolis_is__block-second-row-dignity > div {
-    margin-bottom: 0;
-  }
-
   .mediapolis_is__block-image img {
     height: auto;
   }
@@ -2901,11 +2915,7 @@ input[type="range"]::-webkit-slider-thumb {
   .mediapolis_is__block_content {
     grid-template-columns: 1fr;
   }
-  .mediapolis_is__block-first-row-dignity,
-  .mediapolis_is__block-second-row-dignity {
-    grid-template-columns: 1fr 1fr 1fr;
-    display: grid;
-  }
+
   .mediapolis_is__block-item {
     
   }
@@ -2942,6 +2952,10 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 @media (max-width: 639px) {
+  .mediapolis_is__block-first-row-dignity, .mediapolis_is__block-second-row-dignity {
+    grid-template-columns: 1fr;
+  }
+
   .solution_slider-block {
     margin-top: 0;
   }
@@ -3146,12 +3160,6 @@ input[type="range"]::-webkit-slider-thumb {
     min-height: 300px;
   }
 
-  .mediapolis_is__block-first-row-dignity,
-  .mediapolis_is__block-second-row-dignity {
-    flex-direction: column;
-    padding-left: 20px;
-  }
-
   .mediapolis_is__block-second-row-dignity-image img {
     max-width: 40px;
   }
@@ -3166,11 +3174,6 @@ input[type="range"]::-webkit-slider-thumb {
 
   .where_to_put__block-locations {
     gap: 80px 50px;
-  }
-
-  .mediapolis_is__block-item {
-    flex-direction: row;
-    margin-bottom: 20px;
   }
 
   .types-of-screens__block-image {
@@ -3281,18 +3284,6 @@ input[type="range"]::-webkit-slider-thumb {
   .body-svg-dots-one {
     left: 30px;
     top: 113px;
-  }
-
-  .column .mediapolis_is__block-first-row-dignity,
-  .column .mediapolis_is__block-second-row-dignity {
-    flex-direction: column;
-    align-items: baseline;
-    margin-left: 20px;
-  }
-
-  .column .mediapolis_is__block-first-row-dignity > div,
-  .column .mediapolis_is__block-second-row-dignity > div {
-    margin-bottom: 20px;
   }
 
   .delivery-methods__blocks {
