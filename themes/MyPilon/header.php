@@ -109,7 +109,7 @@ $workTime = get_field('work_time', 'option');
 <div class="overview"></div>
 <div class="side-menu">
     <svg id="close-menu" width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M2 2L31 31M31 2L2 31" stroke="#171631" stroke-width="3"/>
+        <path d="M2 2L31 31M31 2L2 31" stroke="#fff" stroke-width="3"/>
     </svg>
 
     <div class="side-menu_menu">
