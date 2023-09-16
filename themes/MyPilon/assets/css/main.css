@@ -1626,9 +1626,10 @@ footer .contact-phones {
 }
 
 .types-of-screens__blocks {
-  display: flex;
-  justify-content: space-between;
   margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
 }
 
 .types-of-screens__block {
@@ -2279,6 +2280,10 @@ input[type="range"]::-webkit-slider-thumb {
   text-align: right;
 }
 
+.display-device__image img {
+  width: 100%;
+}
+
 .bread-crumbs {
   margin: 20px 0 50px 0;
 }
@@ -2482,6 +2487,11 @@ input[type="range"]::-webkit-slider-thumb {
     max-width: 90%;
     margin: 0 auto;
   }
+
+  .types-of-screens__blocks {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
 }
 
 @media (max-width: 1115px) {
@@ -2492,11 +2502,7 @@ input[type="range"]::-webkit-slider-thumb {
   .main-module__block-left-dignity {
     grid-row-start: 9;
   }
-  .types-of-screens__blocks {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-  }
+
   .types-of-screens__block {
     width: 100%;
   }
@@ -2874,11 +2880,6 @@ input[type="range"]::-webkit-slider-thumb {
     max-width: 100%;
   }
 
-  .types-of-screens__blocks {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
   .main_number {
     font-size: 22px;
   }
@@ -3183,6 +3184,7 @@ input[type="range"]::-webkit-slider-thumb {
   .types-of-screens__block-image {
     display: flex;
     align-items: flex-end;
+    justify-content: center;
   }
 
   .mediapolis_is__block-item:last-child {
@@ -3220,11 +3222,7 @@ input[type="range"]::-webkit-slider-thumb {
 
   .types-of-screens__blocks {
     grid-template-columns: 1fr;
-  }
-
-  .types-of-screens__block {
-    justify-self: baseline;
-    padding-left: 10%;
+    gap: 15px;
   }
 
   #calculator {
