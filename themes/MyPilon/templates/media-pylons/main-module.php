@@ -11,7 +11,7 @@ $main_module_image = get_field('main_module_image');
     <div class="container">
         <div class="main-module__block">
             <?php if (!empty($main_module_title)) : ?>
-                <h1 class="section-title animate__animated animate__fadeInUp"><?= $main_module_title ?? '' ?></h1>
+                <h1 class="main-module__block-left-title animate__animated animate__fadeInUp"><?= $main_module_title ?? '' ?></h1>
             <?php endif; ?>
             <?php if (!empty($main_module_subtitle)) : ?>
                 <h2 class="main-module__block-left-subtitle"><?= $main_module_subtitle ?? '' ?></h2>
