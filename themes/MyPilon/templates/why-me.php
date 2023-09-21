@@ -7,13 +7,13 @@ $about_blocks = get_field('about_block', 7);
     <div class="container">
         <div class="why-me-block">
           <?php if (!empty($about_title)) : ?>
-              <h2 class="section-title"><?= $about_title ?? '' ?></h2>
+              <h2 class="section-title animate__animated animate__fadeInUp"><?= $about_title ?? '' ?></h2>
           <?php endif; ?>
         </div>
       <?php if (!empty($about_blocks)) : ?>
           <div class="why-me-block-items">
-            <?php foreach ($about_blocks as $item) : ?>
-                <div class="why-me-block-item">
+            <?php foreach ($about_blocks as $key => $item) : ?>
+                <div class="why-me-block-item animate__animated animate__fadeInUp" data-wow-delay="<?=$key?>s">
                   <?php if ($item['image']) : ?>
                       <div class="why-me-block-item-image">
                           <img src="<?= $item['image']['url'] ?>" alt="">

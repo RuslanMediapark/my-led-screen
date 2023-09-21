@@ -3,15 +3,18 @@ function mypilon_scripts_styles()
 {
   wp_register_style('swiper_css', get_template_directory_uri() . '/assets/css/swiper.css', array(), '1.2', 'screen');
   wp_register_style('select', get_template_directory_uri() . '/assets/css/nice-select.css', array(), '1.2', 'screen');
+  wp_register_style('animate_css', get_template_directory_uri() . '/assets/css/animate.css', array(), '1.2', 'screen');
   wp_register_style('my_style', get_template_directory_uri() . '/assets/css/main.css', array(), getHasFile('/assets/css/main.css'), 'screen');
   wp_register_style('fancybox', get_template_directory_uri() . '/assets/css/fancybox.css', array(), '1.2', 'screen');
 
+  wp_enqueue_style('animate_css');
   wp_enqueue_style('swiper_css');
   wp_enqueue_style('select');
   wp_enqueue_style('my_style');
   wp_enqueue_style('fancybox');
 
   wp_enqueue_script('jquery_js', get_template_directory_uri() . '/assets/js/jquery.min.js', array(), '1.0', true);
+  wp_enqueue_script('wow_js', get_template_directory_uri() . '/assets/js/wow.min.js', array(), '1.0', true);
   wp_enqueue_script('mask', get_template_directory_uri() . '/assets/js/jquery.mask.js', array(), '1.0', true);
   wp_enqueue_script('swiper_js', get_template_directory_uri() . '/assets/js/swiper.js', array(), '1.0', true);
   wp_enqueue_script('fancybox_js', get_template_directory_uri() . '/assets/js/fancybox.js', array(), '1.0', true);

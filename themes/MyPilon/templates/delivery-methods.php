@@ -8,14 +8,14 @@ $delivery_background = get_field('delivery_background', 7);
 <img class="delivery-bg" src="<? bloginfo('template_url'); ?>/assets/images/bg-items/delivery-bg.png" alt="">
     <div class="container">
         <?php if (!empty($delivery_title)): ?>
-            <h2 class="section-title">
+            <h2 class="section-title animate__animated animate__fadeInUp">
                 <?= $delivery_title ?>
             </h2>
         <?php endif; ?>
         <?php if (!empty($delivery_blocks)) : ?>
             <div class="delivery-methods__blocks">
                 <?php foreach ($delivery_blocks as $block) : ?>
-                    <div class="delivery-methods__block">
+                    <div class="delivery-methods__block animate__animated animate__backInRight">
                         <?php if ($block['image']) : ?>
                         <div class="delivery-methods__block-image">
                             <img src="<?= $block['image']['url'] ?>" alt="">

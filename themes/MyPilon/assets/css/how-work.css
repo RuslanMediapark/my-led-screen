@@ -13,7 +13,6 @@
 }
 
 .how-work__subtitle {
-    font-family: Mulish;
     font-size: 18px;
     line-height: 23px;
     margin-bottom: 60px;
@@ -37,7 +36,6 @@
     min-width: 80px;
     min-height: 80px;
     background: #fff;
-    font-family: IBM Plex Sans;
     font-size: 30px;
     font-weight: 700;
     line-height: 39px;
@@ -48,7 +46,6 @@
 }
 
 .block-content__title {
-    font-family: IBM Plex Sans;
     font-size: 22px;
     font-weight: 700;
     line-height: 29px;
@@ -57,7 +54,6 @@
 }
 
 .block-content__subtitle {
-    font-family: IBM Plex Sans;
     font-size: 16px;
     font-weight: 400;
     line-height: 21px;

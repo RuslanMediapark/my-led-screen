@@ -8,13 +8,13 @@ $views_blocks = get_field('views_block');
     <div class="container">
         <div class="led-screen-type-block">
           <?php if (!empty($views_blocks)) : ?>
-              <h2 class="section-title"><?= $views_title ?? '' ?></h2>
+              <h2 class="section-title animate__animated animate__fadeInUp"><?= $views_title ?? '' ?></h2>
           <?php endif; ?>
         </div>
       <?php if (!empty($views_blocks)) : ?>
           <div class="led-screen-type-block-items">
-            <?php foreach ($views_blocks as $item) : ?>
-                <div class="led-screen-type-block-item">
+            <?php foreach ($views_blocks as $key => $item) : ?>
+                <div class="led-screen-type-block-item animate__animated animate__fadeInUp" data-wow-delay="<?=$key?>s">
                   <?php if ($item['image']) : ?>
                       <div class="led-screen-type-block-item-image">
                           <img src="<?= $item['image']['url'] ?>" alt="">

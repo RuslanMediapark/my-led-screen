@@ -11,7 +11,7 @@ $select_install_type = get_field('select_install_type');
 
 <section id="calculator">
     <div class="container">
-        <h2 class="calulator_title"><?=$calc_title?></h2>
+        <h2 class="calulator_title animate__animated animate__fadeInUp"><?=$calc_title?></h2>
         <div class="calulator_content">
         <div class="calculator_image">
                 <img src="<?=$calc_image;?>" alt="calculator">

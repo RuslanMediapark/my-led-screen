@@ -6,7 +6,7 @@ $form = get_field('form');
 ?>
 <section id="main-form" class="form-transparent-bg">
     <div class="container">
-        <div class="main-form__wrapper">
+        <div class="main-form__wrapper animate__animated animate__backInRight" data-wow-delay="1s">
             <img class="form-bg" src="<? bloginfo('template_url'); ?>/assets/images/bg-items/form-bg.png" alt="">
             <div class="main-form__content">
                 <h3 class="main-form_title"><?= $title ?? '' ?></h3>

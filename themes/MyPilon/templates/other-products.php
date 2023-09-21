@@ -6,7 +6,7 @@ $otherProducts = get_field('other_products');
 <section id="other-products">
 
     <div class="container">
-        <h2 class="section-title"><?= $otherProductsTitle ?? '' ?></h2>
+        <h2 class="section-title animate__animated animate__fadeInUp"><?= $otherProductsTitle ?? '' ?></h2>
         <div class="other-products__wrapper">
         <?php if (!empty($otherProducts)) : ?>
             <div class="other-products__blocks">

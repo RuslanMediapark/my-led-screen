@@ -6,12 +6,12 @@ $additional_options_option = get_field('additional_options_option');
 <section id="additional-options">
     <div class="container">
       <?php if (!empty($additional_options_title)) : ?>
-          <h2 class="additional-options__title"><?= $additional_options_title ?? '' ?></h2>
+          <h2 class="section-title  animate__animated animate__fadeInUp"><?= $additional_options_title ?? '' ?></h2>
       <?php endif; ?>
       <?php if (!empty($additional_options_option)) : ?>
           <div class="additional-options__blocks">
-            <?php foreach ($additional_options_option as $option) : ?>
-                <div class="additional-options__block">
+            <?php foreach ($additional_options_option as $key => $option) : ?>
+                <div class="additional-options__block animate__animated animate__fadeInUp" data-wow-delay="<?=$key?>s">
                   <?php if (!empty($option['image'])) : ?>
                       <div class="additional-options__block-image">
                           <img src="<?= $option['image']['url'] ?>" alt="">

@@ -2,7 +2,18 @@ const colorOne = $('body').attr('data-color-one');
 const colorTwo = $('body').attr('data-color-two');
 const footerColor = $('body').attr('data-footer-color');
 
+new WOW(
+    {
+    boxClass:     'animate__animated',      // default
+    animateClass: 'animate__animated', // default
+    offset:       0,          // default
+    mobile:       true,       // default
+    live:         true        // default
+  }
+  ).init()
+
 $(document).ready(function () {
+
 
     new Swiper(".hero-slider", {
         slidesPerView: 1,

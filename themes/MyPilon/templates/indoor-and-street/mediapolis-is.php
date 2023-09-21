@@ -11,15 +11,15 @@ $mediapolis_display = get_field('mediapolis_display');
     <div class="container">
         <div class="mediapolis_is__block">
             <?php if (!empty($mediapolis_title)) : ?>
-            <h2 class="section-title">
+            <h2 class="section-title animate__animated animate__fadeInUp">
                 <?= $mediapolis_title ?? '' ?>
             </h2>
             <?php endif; ?>
             <div class="mediapolis_is__block_content">
             <?php if (!empty($mediapolis_first_row_dignity)) : ?>
             <div class="mediapolis_is__block-first-row-dignity">
-                <?php foreach ($mediapolis_first_row_dignity as $item) : ?>
-                <div class="mediapolis_is__block-item">
+                <?php foreach ($mediapolis_first_row_dignity as $key => $item) : ?>
+                <div class="mediapolis_is__block-item animate__animated animate__lightSpeedInLeft" data-wow-delay="<?=$key?>s">
                     <?php if (!empty($item['image'])) : ?>
                     <div class="mediapolis_is__block-first-row-dignity-image">
                         <img src="<?= $item['image']['url'] ?>" alt="">
@@ -44,8 +44,8 @@ $mediapolis_display = get_field('mediapolis_display');
             <?php endif; ?>
             <?php if (!empty($mediapolis_second_row_dignity)) : ?>
             <div class="mediapolis_is__block-second-row-dignity">
-                <?php foreach ($mediapolis_second_row_dignity as $item) : ?>
-                <div class="mediapolis_is__block-item">
+                <?php foreach ($mediapolis_second_row_dignity as $key => $item) : ?>
+                <div class="mediapolis_is__block-item animate__animated animate__lightSpeedInRight" data-wow-delay="<?=$key?>s">
                     <?php if (!empty($item['image'])) : ?>
                     <div class="mediapolis_is__block-second-row-dignity-image">
                         <img src="<?= $item['image']['url'] ?>" alt="">
