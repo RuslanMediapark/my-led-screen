@@ -3042,6 +3042,11 @@ input[type="range"]::-webkit-slider-thumb {
     flex-direction: column;
     padding: 8px 0;
   }
+  .hero-video video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
   .calulator_content form {
     gap: 20px;
     grid-template-columns: 1fr;
