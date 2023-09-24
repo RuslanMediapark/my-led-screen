@@ -151,7 +151,6 @@ main {
 }
 
 footer {
-  background-color: var(--footer-color);
   color: rgba(255, 255, 255, 0.8);
 }
 
@@ -774,9 +773,6 @@ div[role="button"] svg {
   position: absolute;
 }
 
-div[role="button"]:hover path {
-  stroke: var(--color-two);
-}
 
 #project_slider .swiper-button-next,
 #project_slider .swiper-container-rtl .swiper-button-prev,
@@ -813,14 +809,7 @@ div[role="button"]:hover path {
 #project_slider .swiper-button-prev svg path {
   stroke: #fff;
 }
-#project_slider .swiper-slide,
-#solution_slider .swiper-slide {
-  background-image: linear-gradient(
-    0deg,
-    var(--color-two) 0%,
-    var(--color-two) 100%
-  );
-}
+
 
 #project_slider,
 #solution_slider {
@@ -1087,11 +1076,6 @@ body .wpcf7 form .wpcf7-response-output {
 .product-quality__block-left-person {
   width: 260px;
   border-radius: 8px;
-  background: linear-gradient(
-    94.27deg,
-    #fff 0%,
-    var(--color-two) 100%
-  );
   box-sizing: border-box;
   box-shadow: 0px 12px 32px -12px rgba(48, 44, 234, 0.5);
   padding: 19px 26px;
@@ -2031,7 +2015,7 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .checkbox-item:hover input ~ .checkmark {
-  background-color: #eee;
+  background-color: #fff;
 }
 
 .checkmark:after {
@@ -2045,7 +2029,7 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .checkbox-item .checkmark:after {
-  background-color: #fff;
+  background-color: #1e0038;
   width: 14px;
   height: 14px;
   left: 50%;
