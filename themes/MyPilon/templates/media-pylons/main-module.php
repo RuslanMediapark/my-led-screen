@@ -41,7 +41,7 @@ $main_module_image = get_field('main_module_image');
             <button class="btn" id="how-work-callback" data-fancybox="dialog" data-src="#dialog-content">
                 Оставить заявку
             </button>
-            <div class="main-module__block-right">
+            <div class="main-module__block-right <?php if ($main_module_mode_page !== 'media-pilons'):?> simple-image <?php endif;?>">
                 <?php if ($main_module_mode_page === 'media-pilons') : ?>
                     <div class="main-module__block-right-images"></div>
                 <?php else: ?>
