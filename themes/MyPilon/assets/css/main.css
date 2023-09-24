@@ -1797,7 +1797,7 @@ footer .contact-phones {
   color: #fff;
 }
 .hero-video video {
-  margin-bottom: 16px;
+  border-radius: 16px;
   width: 100%;
 }
 .main-module__block #how-work-callback {
