@@ -3197,8 +3197,8 @@ input[type="range"]::-webkit-slider-thumb {
   }
 
   .main-module__block-left-subtitle {
-    font-size: 18px;
-    line-height: 127.5%;
+    font-size: 14px;
+    line-height: normal;
   }
 
   .project_slider-block-title {
@@ -3408,7 +3408,7 @@ input[type="range"]::-webkit-slider-thumb {
   }
 
   .main-module__block-left-title {
-    text-align: center;
+    text-align: left;
   }
 
   .main-module__block-left-subtitle {
