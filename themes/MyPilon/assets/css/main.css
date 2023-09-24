@@ -3050,7 +3050,7 @@ input[type="range"]::-webkit-slider-thumb {
   }
 
   #led-screen-type, #why-me, #main-form, #project_slider, #main-form-two, #solution_slider, #main-form-three, #how-work, #delivery-methods, #about_company, #our_partners, #other-products, #mediapolis_is, #calculator {
-    margin: 40px 0;
+    margin: 50px 0;
   }
 
   #main-form-question {
