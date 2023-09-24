@@ -1732,6 +1732,14 @@ footer .contact-phones {
   border-radius: 16px;
 }
 
+.project-slider img {
+  border-radius: 16px;
+}
+
+.solution-slider img {
+  border-radius: 16px;
+}
+
 .additional-options__blocks {
   display: flex;
   justify-content: space-between;
