@@ -839,7 +839,7 @@ div[role="button"]:hover path {
 .solution_slider-block-title {
   font-weight: 700;
   font-size: 40px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   color: #fff;
 }
 
@@ -2283,7 +2283,7 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .bread-crumbs {
-  margin: 20px 0 50px 0;
+  margin: 30px 0 50px 0;
 }
 
 .bread-crumbs__content {
