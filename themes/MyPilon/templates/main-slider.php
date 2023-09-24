@@ -18,7 +18,7 @@ $hero_video_url = get_field('hero_video_url');
             </h2>
             <?php endif; ?>
             <div class="hero-video animate__animated animate__fadeInUp">
-                <iframe width="100%" height="560" src="<?= $hero_video_url?>?autoplay=1" style="border-radius: 20px; z-index: 10" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                <iframe loading="lazy" width="100%" height="560" src="<?= $hero_video_url?>?autoplay=1" style="border-radius: 20px; z-index: 10" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
     </div>
