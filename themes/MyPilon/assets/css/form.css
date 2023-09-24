@@ -175,6 +175,11 @@ textarea::placeholder {
   gap: 30px;
 }
 
+.form-data p {
+  display: flex;
+  gap: 30px;
+}
+
 #main-form-question input {
   width: 100%;
   max-width: 220px;
