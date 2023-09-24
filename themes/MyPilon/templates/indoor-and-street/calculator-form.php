@@ -110,7 +110,7 @@ $select_install_type = get_field('select_install_type');
                 <input type="tel" placeholder="Ваш телефон" name="f-calc-phone" true-name="calc-phone">
             </div>
             <div class="form-data">
-                <input type="submit" class="send-calc-form" value="Отправить">
+                <input type="submit" class="send-calc-form phone-form-button" value="Отправить">
             </div>
         </form>
     </div>

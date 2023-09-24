@@ -2170,12 +2170,14 @@ input[type="range"]::-webkit-slider-thumb {
   display: flex;
   align-items: center;
   margin-top: 20px;
+  gap: 10px;
 }
 #lead-data-form form input {
   max-width: 100%;
 }
 #lead-data-form .form-data {
   padding-top: 0;
+  height: 100%;
 }
 
 #other-products {
