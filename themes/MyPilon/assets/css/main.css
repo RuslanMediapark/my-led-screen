@@ -2561,6 +2561,14 @@ input[type="range"]::-webkit-slider-thumb {
   /* .main-module__block-left-subtitle {
     grid-row-start: 8;
   } */
+  .main-module__block__static {
+    flex-direction: column;
+  }
+  .main-module__block__static .block-right_image img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+  }
   .main-module__block-left-subtitle {
     grid-column-end: 5;
   }
