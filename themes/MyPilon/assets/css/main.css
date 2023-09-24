@@ -2024,6 +2024,11 @@ input[type="range"]::-webkit-slider-thumb {
   display: none;
 }
 
+.nice-select.open .list {
+  max-height: 400px;
+  overflow: auto;
+  box-shadow: 0px 0px 14px 0 rgba(255,255,255,.1);
+}
 .checkbox-item input:checked ~ .checkmark:after {
   display: block;
 }
