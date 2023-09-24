@@ -15,7 +15,7 @@ $project_slider_images = get_field('project_slider_images');
                     <div class="swiper-wrapper">
                         <?php foreach ($project_slider_images as $project_slide) : ?>
                         <div class="swiper-slide">
-                            <img src="<?= $project_slide['url'] ?? '' ?>" alt="">
+                            <img loading="lazy" src="<?= $project_slide['url'] ?? '' ?>" alt="image">
                             <div class="description">
                                 <h6><?= $project_slide['caption'] ?? '' ?></h6>
                                 <p><?= $project_slide['description'] ?? '' ?></p>
