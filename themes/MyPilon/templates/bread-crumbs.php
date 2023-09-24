@@ -2,7 +2,7 @@
     <?php if (!$mainPage) : ?>
         <div class="container">
             <div class="bread-crumbs__content">
-                Главная - <span><?= $pageName ?? '' ?></span>
+                <a href="/">Главная</a> - <span><?= $pageName ?? '' ?></span>
             </div>
         </div>
     <?php endif; ?>
