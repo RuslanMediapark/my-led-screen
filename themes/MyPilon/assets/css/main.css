@@ -1830,12 +1830,18 @@ footer .contact-phones {
 .main-module__block-item svg {
   margin-right: 20px;
 }
+.main-module__block__static {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 
+.main-module__block__static .section-title {
+  text-align: left;
+}
 .main-module__block-left-dignity-title {
   font-weight: 600;
   font-size: 18px;
-  line-height: 127.5%;
-  letter-spacing: 0.02em;
+  line-height: normal;
   max-width: 537px;
 }
 .main-module__block-left-dignity-title p:nth-child(1) {
