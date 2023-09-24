@@ -96,7 +96,7 @@ $select_install_type = get_field('select_install_type');
 
         </div>
         <div class="hidden-form">
-                <?= do_shortcode('[contact-form-7 id="619" title="Калькулятор"]')?>
+                <?= do_shortcode('[contact-form-7 id="be78a81" title="Калькулятор"]')?>
             </div>
     </div>
 	
