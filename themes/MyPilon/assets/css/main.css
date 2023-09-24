@@ -2961,7 +2961,9 @@ input[type="range"]::-webkit-slider-thumb {
   .contact-phones {
     margin-top: 30px;
   }
-
+  .block-right_image img {
+    width: 100%;
+  }
   .header-content {
     max-width: calc(75px + 50%);
   }
