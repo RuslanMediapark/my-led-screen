@@ -1796,7 +1796,10 @@ footer .contact-phones {
   margin-top: 80px;
   color: #fff;
 }
-
+.hero-video video {
+  margin-bottom: 16px;
+  width: 100%;
+}
 .main-module__block #how-work-callback {
   grid-column-start: 1;
   grid-row-start: 21;
