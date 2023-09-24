@@ -7,7 +7,7 @@ $project_slider_images = get_field('project_slider_images');
     <div class="container">
         <div class="project_slider-block">
             <?php if (!empty($project_slider_title)) : ?>
-            <h2 class="section-title animate__animated animate__fadeInUp"><?= $project_slider_title ?? '' ?> </h2>
+            <h2 class="section-title animate__animated animate__fadeInUp" data-wow-offset="0"><?= $project_slider_title ?? '' ?> </h2>
             <?php endif; ?>
             <?php if (!empty($project_slider_images)) : ?>
             <div class="project_slider-block">

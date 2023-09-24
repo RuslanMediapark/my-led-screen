@@ -9,10 +9,10 @@ $solution_slider_images = get_field('solutions_slider_images');
     <div class="container">
         <div class="solution_slider-block">
             <?php if (!empty($solution_slider_title)) : ?>
-            <h2 class="section-title animate__animated animate__bounce"><?= $solution_slider_title ?? '' ?> </h2>
+            <h2 class="section-title animate__animated animate__bounce" data-wow-offset="0"><?= $solution_slider_title ?? '' ?> </h2>
             <?php endif; ?>
             <?php if (!empty($solution_slider_description)) : ?>
-            <p class="solution_slider-block-description animate__animated animate__fadeIn" data-wow-delay="1s"><?= $solution_slider_description ?? '' ?> </p>
+            <p class="solution_slider-block-description animate__animated animate__fadeIn" data-wow-offset="0" data-wow-delay="1s"><?= $solution_slider_description ?? '' ?> </p>
             <?php endif; ?>
             <?php if (!empty($solution_slider_subtitle)) : ?>
             <h3 class="solution_slider-block-subtitle"><?= $solution_slider_subtitle ?? '' ?> </h3>
