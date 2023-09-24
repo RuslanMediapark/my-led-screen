@@ -3255,6 +3255,12 @@ input[type="range"]::-webkit-slider-thumb {
     justify-content: center;
   }
 
+  .types-of-screens__block-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
   .mediapolis_is__block-item:last-child {
     margin-bottom: 0;
   }
