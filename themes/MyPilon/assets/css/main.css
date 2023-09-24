@@ -2958,7 +2958,8 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 @media (max-width: 849px) {
-  html {
+  section {
+    overflow-x: hidden;
   }
   .contact-phones {
     margin-top: 30px;
