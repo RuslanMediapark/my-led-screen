@@ -1833,6 +1833,8 @@ footer .contact-phones {
 .main-module__block__static {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-top: 80px;
+  color: #fff;
 }
 
 .main-module__block__static .section-title {
