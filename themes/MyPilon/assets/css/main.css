@@ -2958,6 +2958,9 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 @media (max-width: 849px) {
+  html {
+    overflow-x: hidden;
+  }
   .contact-phones {
     margin-top: 30px;
   }
@@ -3104,6 +3107,8 @@ input[type="range"]::-webkit-slider-thumb {
 
   .phone-form input[type="submit"] {
     height: 52px;
+    margin-top: 10px;
+    width: 100%;
   }
 
   .calulator_content form {
@@ -3260,10 +3265,17 @@ input[type="range"]::-webkit-slider-thumb {
   }
 
   .solution_slider-block-description {
-    font-size: 18px;
-    line-height: 162%;
+    font-size: 14px;
+    line-height: normal;
   }
-
+  .display-device__description {
+    font-size: 14px;
+    line-height: normal;
+  }
+  .pixel_step_description {
+    font-size: 14px;
+    line-height: normal;
+  }
   .hero__block-gallery .swiper-slide img {
     min-height: 300px;
   }
