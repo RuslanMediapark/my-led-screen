@@ -10,16 +10,16 @@ $how_work_blocks = get_field('how_work_blocks', 7);
 
     <div class="container">
         <div class="how-work__wrapper">
-            <div class="left animate__animated animate__slideInLeft">
+            <div class="left animate__animated animate__slideInLeft" data-wow-offset="0">
                 <img class="how-work__image" loading="lazy" src="<?= $how_work_image['url'] ?? '' ?>" alt="image">
             </div>
             <div class="right">
-                <h2 class="section-title animate__animated animate__fadeInUp"><?= $how_work_title ?? '' ?></h2>
+                <h2 class="section-title animate__animated animate__fadeInUp" data-wow-offset="0"><?= $how_work_title ?? '' ?></h2>
                 <p class="how-work__subtitle"><?= $how_work_subtitle ?? '' ?></p>
                 <?php if (!empty($how_work_blocks)) : ?>
                     <div class="how-work__blocks">
                         <?php foreach ($how_work_blocks as $key => $block) : ?>
-                            <div class="how-work__block animate__animated animate__fadeInUp" data-wow-delay="<?=$key?>s">
+                            <div class="how-work__block animate__animated animate__fadeInUp" data-wow-offset="0" data-wow-delay="<?=$key?>s">
                                 <p class="block-number"><?= $key + 1 ?></p>
                                 <div class="block-content">
                                     <p class="block-content__title"><?= $block['block_title'] ?? '' ?></p>

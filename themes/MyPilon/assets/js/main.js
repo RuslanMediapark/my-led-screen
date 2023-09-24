@@ -1,7 +1,3 @@
-const colorOne = $('body').attr('data-color-one');
-const colorTwo = $('body').attr('data-color-two');
-const footerColor = $('body').attr('data-footer-color');
-
 new WOW(
     {
     boxClass:     'animate__animated',      // default
@@ -114,11 +110,6 @@ $(document).ready(function () {
 
     $('input[type="tel"]').mask('+7 (999) 999-9999');
 
-    $('.current_page_item a').css('color', colorOne);
-    $(':root').css('--swiper-theme-color', colorTwo);
-    $(':root').css('--color-one', colorOne);
-    $(':root').css('--color-two', colorTwo);
-    $(':root').css('--footer-color', footerColor);
 
     $('.video-overlay svg').click(function () {
         $(this).parent().hide(600);
@@ -177,25 +168,6 @@ $(document).ready(function () {
         }, 500)
     })
 
-    setTimeout(() => {
-
-        const svgGradient = $('.style-svg linearGradient');
-        const svgPaths = $('.style-svg path');
-        svgPaths.map((_, item) => {
-            if ($(item).attr('fill').search('url') === -1) {
-                $(item).attr('fill', colorOne)
-            }
-
-        })
-        svgGradient.map((_, item) => {
-            const stop = $(item).children('stop');
-
-            $(stop[0]).attr('stop-color', colorOne);
-            $(stop[1]).attr('stop-color', colorTwo);
-        })
-
-    }, 1000)
-
     $('.calulator_content input, .calulator_content select, #lead-data-form input').change(function() {
         const trueName = $(this).attr('true-name');
         $(`[name="${trueName}"]`).val($(this).val())
@@ -231,23 +203,3 @@ $(document).ready(function () {
       }))
 })
 
-$(window).ready(function () {
-    setTimeout(() => {
-
-        const svgGradient = $('.style-svg linearGradient');
-        const svgPaths = $('.style-svg path');
-        svgPaths.map((_, item) => {
-            if ($(item).attr('fill').search('url') === -1) {
-                $(item).attr('fill', colorOne)
-            }
-
-        })
-        svgGradient.map((_, item) => {
-            const stop = $(item).children('stop');
-
-            $(stop[0]).attr('stop-color', colorOne);
-            $(stop[1]).attr('stop-color', colorTwo);
-        })
-
-    }, 200)
-})

@@ -11,7 +11,7 @@ $main_module_image = get_field('main_module_image');
     <div class="container">
         <div class="main-module__block">
             <?php if (!empty($main_module_title)) : ?>
-                <h1 class="main-module__block-left-title animate__animated animate__fadeInUp"><?= $main_module_title ?? '' ?></h1>
+                <h1 class="main-module__block-left-title animate__animated animate__fadeInUp" data-wow-offset="0"><?= $main_module_title ?? '' ?></h1>
             <?php endif; ?>
             <?php if (!empty($main_module_subtitle)) : ?>
                 <h2 class="main-module__block-left-subtitle"><?= $main_module_subtitle ?? '' ?></h2>
@@ -22,7 +22,7 @@ $main_module_image = get_field('main_module_image');
             <?php if (!empty($main_module_dignity)) : ?>
                 <div class="main-module__block-left-dignity">
                     <?php foreach ($main_module_dignity as $key => $item) : ?>
-                        <div class="main-module__block-item animate__animated animate__fadeInLeft" data-wow-delay="<?=$key?>s">
+                        <div class="main-module__block-item animate__animated animate__fadeInLeft" data-wow-offset="0" data-wow-delay="<?=$key?>s">
                             <?php if (!empty($item['image'])) : ?>
                                 <div class="main-module__block-left-dignity-image">
                                     <img class="style-svg" src="<?= $item['image']['url'] ?>" alt="">

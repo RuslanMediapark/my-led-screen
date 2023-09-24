@@ -6,12 +6,12 @@ $types_of_screens_views = get_field('types_of_screens_views');
 <section id="types-of-screens">
     <div class="container">
       <?php if (!empty($types_of_screens_title)) : ?>
-          <h2 class="section-title  animate__animated animate__fadeInUp"><?= $types_of_screens_title ?? '' ?></h2>
+          <h2 class="section-title  animate__animated animate__fadeInUp" data-wow-offset="0"><?= $types_of_screens_title ?? '' ?></h2>
       <?php endif; ?>
       <?php if (!empty($types_of_screens_views)): ?>
           <div class="types-of-screens__blocks">
             <?php foreach ($types_of_screens_views as $key => $view): ?>
-              <div class="types-of-screens__block animate__animated animate__backInRight" data-wow-delay="<?=$key?>s">
+              <div class="types-of-screens__block animate__animated animate__backInRight" data-wow-offset="0" data-wow-delay="<?=$key?>s">
               <?php if (!empty($view['image'])) : ?>
                     <div class="types-of-screens__block-image">
                         <img src="<?= $view['image']['url'] ?>" alt="">
