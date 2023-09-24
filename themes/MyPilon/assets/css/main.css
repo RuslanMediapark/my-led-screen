@@ -1729,6 +1729,7 @@ footer .contact-phones {
 
 .mediapolis_is__block-image img {
   width: 100%;
+  border-radius: 16px;
 }
 
 .additional-options__blocks {
