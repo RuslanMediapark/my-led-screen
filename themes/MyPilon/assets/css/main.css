@@ -1831,9 +1831,9 @@ footer .contact-phones {
   margin-right: 20px;
 }
 .main-module__block__static {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
   margin-top: 80px;
+  gap: 20px;
   color: #fff;
 }
 
