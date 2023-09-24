@@ -1802,6 +1802,16 @@ footer .contact-phones {
   grid-row-start: 21;
   width: 220px;
   height: 50px;
+  justify-content: center;
+}
+.main-module__block-right.simple-image  {
+  grid-row-start: 2;
+  grid-column-start: 6;
+  grid-column-end: 11;
+
+}
+.main-module__block-right.simple-image img {
+  width: 100%;
 }
 .main-module__block-left-dignity {
   display: grid;
