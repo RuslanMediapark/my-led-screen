@@ -2822,12 +2822,10 @@ input[type="range"]::-webkit-slider-thumb {
   }
 
   .delivery-methods__block:nth-child(3) {
-    flex-direction: row-reverse;
     align-items: center;
   }
 
   .delivery-methods__block.top-right {
-    flex-direction: row-reverse;
     align-items: center;
   }
 
@@ -3409,9 +3407,12 @@ input[type="range"]::-webkit-slider-thumb {
     margin-top: 50px;
   }
 
-  .main-module__block-left-title,
-  .main-module__block-left-subtitle {
+  .main-module__block-left-title {
     text-align: center;
+  }
+
+  .main-module__block-left-subtitle {
+    text-align: left;
   }
 
   .bread-crumbs {
